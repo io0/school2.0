@@ -61,12 +61,39 @@
   width: 100%;
   font-family: Roboto Slab;
   color: red;
+  animation-name: spin;
+  animation-duration: 1000ms;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
 }
 
 #jonathan:hover ~ #poggers {
   display: block;
 }
-
+#dev {
+  display: none;
+  font-size: 100px;
+  position: fixed;
+  top: 100px;
+  text-align: center;
+  width: 100%;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: 800;
+  -webkit-text-stroke-width: 3px;
+  -webkit-text-stroke-color: white;
+  color: lightgreen;
+}
+#liam:hover ~ #dev {
+  display: block;
+}
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
 // Athena
 #athena:hover {
   background-color: #f00;

@@ -54,6 +54,7 @@ const App = () => {
           );
         })}
         <div id="poggers">POGGERS</div>
+        <div id="dev">9.2X developer</div>
       </div>
     </div>
   );
