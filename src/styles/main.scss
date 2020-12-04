@@ -35,7 +35,7 @@
     width: 80%;
   }
   &:hover {
-    background-color: #dddddd;
+    // background-color: #dddddd;
     cursor: pointer;
   }
 }
@@ -71,20 +71,24 @@
   display: block;
 }
 #dev {
-  display: none;
-  font-size: 100px;
+  visibility: hidden;
+  font-size: 20px;
   position: fixed;
   top: 100px;
   text-align: center;
   width: 100%;
   font-family: "Courier New", Courier, monospace;
   font-weight: 800;
-  -webkit-text-stroke-width: 3px;
+  -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: white;
   color: lightgreen;
+  animation: blinker 0.3s ease-in-out infinite;
+  transition: transform 0.1s linear;
 }
 #liam:hover ~ #dev {
-  display: block;
+  visibility: visible;
+  transform: scale(9.2);
+  transition: transform 3s linear;
 }
 @keyframes spin {
   from {
@@ -94,7 +98,141 @@
     transform: rotate(360deg);
   }
 }
-// Athena
-#athena:hover {
-  background-color: #f00;
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
+@keyframes indiacolors {
+  0% {
+    color: orange;
+  }
+  33% {
+    color: green;
+  }
+  67% {
+    color: white;
+  }
+  100% {
+    color: orange;
+  }
+}
+#india {
+  display: none;
+  font-size: 150px;
+  position: fixed;
+  top: 100px;
+  text-align: center;
+  width: 100%;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: 800;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: white;
+  color: orange;
+  animation: indiacolors 3s infinite;
+  transition: font-size 15s;
+}
+#noah:hover ~ #india {
+  display: block;
+}
+//  Vincent
+#vincent-hey {
+  font-size: 64px;
+  position: fixed;
+  bottom: 50%;
+  visibility: hidden;
+  font-family: "Times New Roman", Times, serif;
+}
+
+#vincent:hover ~ #vincent-hey {
+  animation: left-scrolling-text 4s linear infinite;
+  color: #fff;
+  display: block;
+  visibility: visible;
+}
+
+@keyframes left-scrolling-text {
+  from {
+    transform: translateX(120%);
+  }
+
+  to {
+    transform: translateX(-120%);
+  }
+}
+
+.box {
+  margin: 0 auto;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  border-radius: 5px;
+  overflow: hidden;
+}
+.box b {
+  display: block;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: #3673cf;
+  box-shadow: inset -5px -5px 5px rgba(0, 0, 0, 0.6),
+    15px 15px 2px rgba(0, 0, 0, 0.04);
+  position: absolute;
+  top: percentage(random(100) / 100);
+  animation: moveX 4s linear 0s infinite alternate,
+    moveY 3s linear 0s infinite alternate;
+}
+
+#myboy {
+  display: block;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: #3673cf;
+  box-shadow: inset -5px -5px 5px rgba(0, 0, 0, 0.6),
+    15px 15px 2px rgba(0, 0, 0, 0.04);
+  position: absolute;
+  left: random(100) + px;
+  top: random(100);
+  animation: moveX2 2.55s linear 0s infinite alternate,
+    moveY2 2s linear 0s infinite alternate;
+}
+
+@keyframes moveX {
+  from {
+    left: 0;
+  }
+  to {
+    left: 100%;
+  }
+}
+
+@keyframes moveY {
+  from {
+    top: 0;
+  }
+  to {
+    top: 100%;
+  }
+}
+@keyframes moveX2 {
+  from {
+    right: 0;
+  }
+  to {
+    left: 100%;
+  }
+}
+
+@keyframes moveY2 {
+  from {
+    top: 0;
+  }
+  to {
+    top: 100%;
+  }
+}
+
+.noHover {
+  pointer-events: none;
 }
