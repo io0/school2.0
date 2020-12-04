@@ -68,6 +68,7 @@ export const data = {
     image: "jonathan.jpeg",
     description:
       "Nothing too complicated activity partners if you think we have something in common easy-going. Long-term dating Netflix fixing my scooter beach days trying this for the first time, glass half-full what to order off of the menu no drama playing my guitar bored at home.",
+    backgroundColor: "#00f",
   },
   kesava: {
     name: "Kesava",
@@ -80,6 +81,7 @@ export const data = {
     image: "liam.jpeg",
     description:
       "Nothing too complicated activity partners if you think we have something in common easy-going. Long-term dating Netflix fixing my scooter beach days trying this for the first time, glass half-full what to order off of the menu no drama playing my guitar bored at home.",
+    backgroundColor: "#6DD6DA",
   },
   marley: {
     name: "Marley",
@@ -132,6 +134,7 @@ export const data = {
     name: "Vincent Huang",
     image: "vincent.jpg",
     description: "",
+    backgroundColor: "#000",
   },
   william: {
     name: "William Bryk",
