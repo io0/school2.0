@@ -6,7 +6,7 @@ export const data = {
     twitter: "atehnaaaa",
     github: "http://github.com/atehnaaaa",
     description:
-      "Nothing too complicated activity partners if you think we have something in common easy-going. Long-term dating Netflix fixing my scooter beach days trying this for the first time, glass half-full what to order off of the menu no drama playing my guitar bored at home.",
+      "A concrete way to do it in a while back in the middle of nowhere so its not a great bound but maybe some adjustments can be made to makesure to keep up with the latest trends.",
   },
   azlen: {
     name: "Azlen Elza",
@@ -15,7 +15,7 @@ export const data = {
     github: "",
     twitter: "",
     description:
-      "Nothing too complicated activity partners if you think we have something in common easy-going. Long-term dating Netflix fixing my scooter beach days trying this for the first time, glass half-full what to order off of the menu no drama playing my guitar bored at home.",
+      "I have been mailed out the check and will send you a copy in a while to send the signed documents in to the dumpster office on Monday and we can also send the signed documents in to the dumpster..",
   },
   chris: {
     name: "Chris Axon",
@@ -24,26 +24,26 @@ export const data = {
     github: "",
     twitter: "",
     description:
-      "Nothing too complicated activity partners if you think we have something in common easy-going. Long-term dating Netflix fixing my scooter beach days trying this for the first time, glass half-full what to order off of the menu no drama playing my guitar bored at home.",
+      "He has a version of his own and the other one that I have been using it to make a great deal for me to be sensitive and to make things happen to you before you go to sleep in a perfect mood..",
   },
   david: {
     name: "David Holz",
     image: "david.jpeg",
     description:
-      "Nothing too complicated activity partners if you think we have something in common easy-going. Long-term dating Netflix fixing my scooter beach days trying this for the first time, glass half-full what to order off of the menu no drama playing my guitar bored at home.",
+      "Leetmotion is a great writer for a year and I think he would be great to have in his future as a result in the middle and he has no idea of how he will react if he has not heard of it.",
   },
   dhruvik: {
     name: "Dhruvik Parikh",
     image: "dhruvik.jpeg",
     github: "",
     description:
-      "Nothing too complicated activity partners if you think we have something in common easy-going. Long-term dating Netflix fixing my scooter beach days trying this for the first time, glass half-full what to order off of the menu no drama playing my guitar bored at home.",
+      "I was like you underlined all the way to the dumpster for at least a few days so I can get me in the middle of nowhere so its not a problem.",
   },
   dmitri: {
     name: "Dmitri Brereton",
     image: "dmitri.jpeg",
     description:
-      "Nothing too complicated activity partners if you think we have something in common easy-going. Long-term dating Netflix fixing my scooter beach days trying this for the first time, glass half-full what to order off of the menu no drama playing my guitar bored at home.",
+      "The other ppl have a great time and a great time for you guys to see the kids to be able and see if you have strong though I'm not going down to your place to be O with you guys.",
   },
   ethan: {
     name: "Ethan",
