@@ -1,28 +1,59 @@
 import React from "react";
 import "./styles/main.scss";
 import { data } from "./data";
+import { css } from "@emotion/core";
 import images from "./img/*.*";
-const names = ["marley", "dmitri", "dhruvik"];
+
 const App = () => {
   return (
-    <div>
-      <h1>School 2.0 Yearbook</h1>
+    <div
+      css={css`
+        max-width: 1000px;
+        margin: 0 auto;
+        font-family: "Nunito", Helvetica, sans-serif;
+        background-color: rgb(241, 241, 241);
+      `}
+    >
+      <h1
+        css={css`
+          text-align: center;
+          font-size: 48px;
+          padding: 25px 0;
+        `}
+      >
+        School 2.0 Yearbook
+      </h1>
       <div className="grid-container">
         {Object.entries(data).map(([name, info]) => {
           console.log("./img/" + info.image);
           return (
             <div id={name} className="person">
               <img src={Object.values(images[name])[0]} alt="" />{" "}
-              <h3>{info.name}</h3>
+              <h2>{info.name}</h2>
               <ul className="social-links">
-                {info.github && <li>http://github.com/io0</li>}
-                {info.website && <li>http://marley.com</li>}
-                {info.twitter && <li>@marleymarlz</li>}
+                {info.github && (
+                  <li>
+                    <a href={info.github}>{info.github}</a>
+                  </li>
+                )}
+                {info.website && (
+                  <li>
+                    <a href={info.website}>{info.website}</a>
+                  </li>
+                )}
+                {info.twitter && (
+                  <li>
+                    <a href={`https://twitter.com/{info.twitter}`}>
+                      {info.twitter}
+                    </a>
+                  </li>
+                )}
               </ul>
               <p>{info.description}</p>
             </div>
           );
         })}
+        <div id="poggers">POGGERS</div>
       </div>
     </div>
   );

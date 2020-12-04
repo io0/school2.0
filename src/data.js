@@ -2,8 +2,9 @@ export const data = {
   athena: {
     name: "Athena Leong",
     image: "athena.jpeg",
-    website: "",
-    twitter: "",
+    website: "atehna.com",
+    twitter: "atehnaaaa",
+    github: "http://github.com/atehnaaaa",
     description:
       "Nothing too complicated activity partners if you think we have something in common easy-going. Long-term dating Netflix fixing my scooter beach days trying this for the first time, glass half-full what to order off of the menu no drama playing my guitar bored at home.",
   },
@@ -13,7 +14,8 @@ export const data = {
     website: "",
     github: "",
     twitter: "",
-    description: "",
+    description:
+      "Nothing too complicated activity partners if you think we have something in common easy-going. Long-term dating Netflix fixing my scooter beach days trying this for the first time, glass half-full what to order off of the menu no drama playing my guitar bored at home.",
   },
   chris: {
     name: "Chris Axon",
@@ -21,48 +23,63 @@ export const data = {
     website: "",
     github: "",
     twitter: "",
-    description: "",
+    description:
+      "Nothing too complicated activity partners if you think we have something in common easy-going. Long-term dating Netflix fixing my scooter beach days trying this for the first time, glass half-full what to order off of the menu no drama playing my guitar bored at home.",
+  },
+  david: {
+    name: "David Holz",
+    image: "david.jpeg",
+    description:
+      "Nothing too complicated activity partners if you think we have something in common easy-going. Long-term dating Netflix fixing my scooter beach days trying this for the first time, glass half-full what to order off of the menu no drama playing my guitar bored at home.",
   },
   dhruvik: {
     name: "Dhruvik Parikh",
     image: "dhruvik.jpeg",
     github: "",
-    description: "",
+    description:
+      "Nothing too complicated activity partners if you think we have something in common easy-going. Long-term dating Netflix fixing my scooter beach days trying this for the first time, glass half-full what to order off of the menu no drama playing my guitar bored at home.",
   },
   dmitri: {
     name: "Dmitri Brereton",
     image: "dmitri.jpeg",
-    description: "",
+    description:
+      "Nothing too complicated activity partners if you think we have something in common easy-going. Long-term dating Netflix fixing my scooter beach days trying this for the first time, glass half-full what to order off of the menu no drama playing my guitar bored at home.",
   },
   ethan: {
     name: "Ethan",
     image: "ethan.jpeg",
-    description: "",
+    description:
+      "Nothing too complicated activity partners if you think we have something in common easy-going. Long-term dating Netflix fixing my scooter beach days trying this for the first time, glass half-full what to order off of the menu no drama playing my guitar bored at home.",
   },
   felipe: {
     name: "Felipe",
     image: "felipe.jpeg",
-    description: "",
+    description:
+      "Nothing too complicated activity partners if you think we have something in common easy-going. Long-term dating Netflix fixing my scooter beach days trying this for the first time, glass half-full what to order off of the menu no drama playing my guitar bored at home.",
   },
   harshu: {
     name: "Harshu",
     image: "harshu.jpeg",
-    description: "",
+    description:
+      "Nothing too complicated activity partners if you think we have something in common easy-going. Long-term dating Netflix fixing my scooter beach days trying this for the first time, glass half-full what to order off of the menu no drama playing my guitar bored at home.",
   },
   jonathan: {
     name: "Jonathan",
     image: "jonathan.jpeg",
-    description: "",
+    description:
+      "Nothing too complicated activity partners if you think we have something in common easy-going. Long-term dating Netflix fixing my scooter beach days trying this for the first time, glass half-full what to order off of the menu no drama playing my guitar bored at home.",
   },
   kesava: {
     name: "Kesava",
     image: "kesava.jpeg",
-    description: "",
+    description:
+      "Nothing too complicated activity partners if you think we have something in common easy-going. Long-term dating Netflix fixing my scooter beach days trying this for the first time, glass half-full what to order off of the menu no drama playing my guitar bored at home.",
   },
   liam: {
     name: "Liam Hinzman",
     image: "liam.jpeg",
-    description: "",
+    description:
+      "Nothing too complicated activity partners if you think we have something in common easy-going. Long-term dating Netflix fixing my scooter beach days trying this for the first time, glass half-full what to order off of the menu no drama playing my guitar bored at home.",
   },
   marley: {
     name: "Marley",
@@ -72,37 +89,44 @@ export const data = {
   matthew: {
     name: "Matthew Siu",
     image: "matthew.jpeg",
-    description: "",
+    description:
+      "Nothing too complicated activity partners if you think we have something in common easy-going. Long-term dating Netflix fixing my scooter beach days trying this for the first time, glass half-full what to order off of the menu no drama playing my guitar bored at home.",
   },
   noah: {
     name: "Noah Trenaman",
     image: "noah.jpg",
-    description: "",
+    description:
+      "Nothing too complicated activity partners if you think we have something in common easy-going. Long-term dating Netflix fixing my scooter beach days trying this for the first time, glass half-full what to order off of the menu no drama playing my guitar bored at home.",
   },
   raffi: {
     name: "Raffi Hotter",
     image: "raffi.jpeg",
-    description: "",
+    description:
+      "Nothing too complicated activity partners if you think we have something in common easy-going. Long-term dating Netflix fixing my scooter beach days trying this for the first time, glass half-full what to order off of the menu no drama playing my guitar bored at home.",
   },
   santi: {
     name: "Santi Aranguri",
     image: "santi.jpeg",
-    description: "",
+    description:
+      "Nothing too complicated activity partners if you think we have something in common easy-going. Long-term dating Netflix fixing my scooter beach days trying this for the first time, glass half-full what to order off of the menu no drama playing my guitar bored at home.",
   },
   steve: {
     name: "Stephen Fay",
     image: "steve.jpeg",
-    description: "",
+    description:
+      "Nothing too complicated activity partners if you think we have something in common easy-going. Long-term dating Netflix fixing my scooter beach days trying this for the first time, glass half-full what to order off of the menu no drama playing my guitar bored at home.",
   },
   taylor: {
     name: "Taylor Rogalski",
     image: "taylor.png",
-    description: "",
+    description:
+      "Nothing too complicated activity partners if you think we have something in common easy-going. Long-term dating Netflix fixing my scooter beach days trying this for the first time, glass half-full what to order off of the menu no drama playing my guitar bored at home.",
   },
   tiago: {
     name: "Tiago Sada",
     image: "tiago.png",
-    description: "",
+    description:
+      "Nothing too complicated activity partners if you think we have something in common easy-going. Long-term dating Netflix fixing my scooter beach days trying this for the first time, glass half-full what to order off of the menu no drama playing my guitar bored at home.",
   },
   vincent: {
     name: "Vincent Huang",
@@ -112,6 +136,7 @@ export const data = {
   william: {
     name: "William Bryk",
     image: "william.png",
-    description: "",
+    description:
+      "Nothing too complicated activity partners if you think we have something in common easy-going. Long-term dating Netflix fixing my scooter beach days trying this for the first time, glass half-full what to order off of the menu no drama playing my guitar bored at home.",
   },
 };
