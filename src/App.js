@@ -77,6 +77,31 @@ const App = () => {
             <b></b>
           </div>
         );
+      case "steve":
+        return (
+          <>
+            {steves.map((el) => (
+              <div
+                css={css`
+                  position: fixed;
+                  left: ${el.n * 100}px;
+                  top: 100px;
+                  width: 100px;
+                `}
+                className="noHover"
+              >
+                <img
+                  css={css`
+                    width: ${100 + el.n * 10}px !important;
+                  `}
+                  src={Object.values(images["steve"])[0]}
+                  alt=""
+                  // className="noHover"
+                />
+              </div>
+            ))}
+          </>
+        );
       default:
         return null;
     }
@@ -186,33 +211,6 @@ const App = () => {
               9.2X developer
             </div>
           </PersonHover> */}
-          {steves.map((el) => (
-            <div
-              css={css`
-                position: fixed;
-                left: ${el.n * 100}px;
-                width: 100px;
-              `}
-              className="noHover"
-            >
-              <img
-                css={css`
-                  position: fixed;
-                  left: ${el.n * 100}px;
-                  width: 100px;
-                `}
-                className="noHover"
-              />
-              <img
-                css={css`
-                  width: ${100 + el.n * 10}px;
-                `}
-                src={Object.values(images["steve"])[0]}
-                alt=""
-                className="noHover"
-              />
-            </div>
-          ))}
         </div>
       </div>
     </div>
