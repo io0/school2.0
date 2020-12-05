@@ -26,6 +26,10 @@ const App = () => {
   useEffect(() => {
     if (activePerson === "noah") {
       setOverlayStyles(`background-image: url(${getImagePath("india")})`);
+    } else if (activePerson === "raffi") {
+      setOverlayStyles(
+        `background-image: url(https://4.bp.blogspot.com/-Gmx13XLzHo0/Tj4eRdB-6YI/AAAAAAAAB40/sNpJse1nBLY/s500/Swiss+Miss+logo+2010.jpg)`
+      );
     } else {
       setOverlayStyles("");
     }
@@ -34,12 +38,7 @@ const App = () => {
   const getDecorations = (name) => {
     switch (name) {
       case "raffi":
-        return (
-          <div id="choco">
-            <div id="other-choco"></div>
-            <div id="inside-choco"></div>
-          </div>
-        );
+        return <div id="choco" className="noHover"></div>;
       case "jonathan":
         return (
           <div id="poggers" className="noHover">
@@ -63,6 +62,19 @@ const App = () => {
         return (
           <div id="india" className="noHover">
             India.
+          </div>
+        );
+      case "marley":
+        return (
+          <div class="box">
+            <b></b>
+            <b></b>
+            <b></b>
+            <b></b>
+            <b></b>
+            <b></b>
+            <b></b>
+            <b></b>
           </div>
         );
       default:
@@ -116,11 +128,6 @@ const App = () => {
           >
             {activePerson || `School 2.0 Yearbook`}
           </h1>
-
-          <div className="chococ">
-            <div id="other-choco"></div>
-            <div id="inside-choco"></div>
-          </div>
           <div className="grid-container">
             {Object.entries(data).map(([name, info]) => {
               // console.log("./img/" + info.image);
@@ -179,13 +186,6 @@ const App = () => {
               9.2X developer
             </div>
           </PersonHover> */}
-          <div class="box">
-            <b></b>
-            <b></b>
-            <b></b>
-            <b></b>
-            <b id="myboy"></b>
-          </div>
           {steves.map((el) => (
             <div
               css={css`
