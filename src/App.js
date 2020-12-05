@@ -160,13 +160,21 @@ const App = () => {
                 <div className="person">
                   <img
                     id={name}
-                    src={Object.values(images[name])[0]}
+                    src={
+                      activePerson === "tiago" && name !== "tiago"
+                        ? getImagePath("ycombinator")
+                        : Object.values(images[name])[0]
+                    }
                     alt=""
                     onMouseOver={() => onPersonHover(name)}
                     onMouseOut={onPersonHoverRemoved}
                   />
                   {getDecorations(name)}
-                  <h2>{info.name}</h2>
+                  <h2>
+                    {activePerson === "tiago" && name !== "tiago"
+                      ? "So when I was in YC..."
+                      : info.name}
+                  </h2>
                   <ul className="social-links">
                     {info.github && (
                       <li>
