@@ -1,4 +1,12 @@
 export const data = {
+  amanda: {
+    name: "Amanda Ngo",
+    image: "amanda.png",
+    website: "https://www.amandango.me/",
+    twitter: "",
+    github: "",
+    description: "yee",
+  },
   athena: {
     name: "Athena Leong",
     image: "athena.jpeg",
@@ -16,6 +24,14 @@ export const data = {
     twitter: "azlenelza",
     description:
       "I have been mailed out the check and will send you a copy in a while to send the signed documents in to the dumpster office on Monday and we can also send the signed documents in to the dumpster..",
+  },
+  bonnie: {
+    name: "Bonnie Li",
+    image: "bonnie.png",
+    website: "https://bonniesjli.github.io/",
+    github: "bonniesjli",
+    twitter: "bonniesjli",
+    description: "B-B-B-B-B-B-B-B-B-B-B-B-BONNIE",
   },
   chris: {
     name: "Chris Axon",
@@ -51,6 +67,12 @@ export const data = {
     description:
       "The other ppl have a great time and a great time for you guys to see the kids to be able and see if you have strong though I'm not going down to your place to be O with you guys.",
   },
+  emma: {
+    name: "Emma Qian",
+    image: "emma.png",
+    github: "",
+    description: "add me on snapchat!",
+  },
   ethan: {
     name: "Ethan Perez",
     image: "ethan.jpeg",
@@ -65,6 +87,14 @@ export const data = {
     twitter: "CaleroForero",
     description:
       "Nothing too complicated activity partners if you think we have something in common easy-going. Long-term dating Netflix fixing my scooter beach days trying this for the first time, glass half-full what to order off of the menu no drama playing my guitar bored at home.",
+  },
+  geffen: {
+    name: "Geffen Avraham",
+    image: "geffen.png",
+    twitter: "geffenavraham",
+    github: "",
+    website: "",
+    description: "GAFFEN",
   },
   harshu: {
     name: "Harshu Musunuri",
