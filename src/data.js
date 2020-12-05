@@ -2,7 +2,7 @@ export const data = {
   amanda: {
     name: "Amanda Ngo",
     image: "amanda.png",
-    website: "https://www.amandango.me/",
+    website: "www.amandango.me/",
     twitter: "",
     github: "",
     description: "yee",
@@ -10,7 +10,7 @@ export const data = {
   athena: {
     name: "Athena Leong",
     image: "athena.jpeg",
-    website: "http://athenaleong.tech/",
+    website: "athenaleong.tech/",
     twitter: "athleong",
     github: "athenaleong",
     description:
@@ -19,7 +19,7 @@ export const data = {
   azlen: {
     name: "Azlen Elza",
     image: "azlen.png",
-    website: "https://azlen.me/",
+    website: "azlen.me/",
     github: "azlen",
     twitter: "azlenelza",
     description:
@@ -28,7 +28,7 @@ export const data = {
   bonnie: {
     name: "Bonnie Li",
     image: "bonnie.png",
-    website: "https://bonniesjli.github.io/",
+    website: "bonniesjli.github.io/",
     github: "bonniesjli",
     twitter: "bonniesjli",
     description: "B-B-B-B-B-B-B-B-B-B-B-B-BONNIE",
@@ -77,7 +77,7 @@ export const data = {
     name: "Ethan Perez",
     image: "ethan.jpeg",
     github: "ethanjperez",
-    website: "https://ethanperez.net/",
+    website: "ethanperez.net/",
     description:
       "Nothing too complicated activity partners if you think we have something in common easy-going. Long-term dating Netflix fixing my scooter beach days trying this for the first time, glass half-full what to order off of the menu no drama playing my guitar bored at home.",
   },
@@ -150,7 +150,7 @@ export const data = {
     image: "noah.jpg",
     twitter: "noahtren",
     github: "noahtren",
-    website: "https://noahtren.com/",
+    website: "noahtren.com/",
     description:
       "Nothing too complicated activity partners if you think we have something in common easy-going. Long-term dating Netflix fixing my scooter beach days trying this for the first time, glass half-full what to order off of the menu no drama playing my guitar bored at home.",
   },
@@ -174,7 +174,7 @@ export const data = {
     image: "steve.jpeg",
     twitter: "dcxStep",
     github: "dcxst",
-    website: "https://dcxst.github.io/",
+    website: "dcxst.github.io/",
     description:
       "Nothing too complicated activity partners if you think we have something in common easy-going. Long-term dating Netflix fixing my scooter beach days trying this for the first time, glass half-full what to order off of the menu no drama playing my guitar bored at home.",
   },
@@ -182,7 +182,7 @@ export const data = {
     name: "Taylor Rogalski",
     image: "taylor.png",
     twitter: "tayroga",
-    website: "https://tay.ro/",
+    website: "tay.ro/",
     description:
       "Nothing too complicated activity partners if you think we have something in common easy-going. Long-term dating Netflix fixing my scooter beach days trying this for the first time, glass half-full what to order off of the menu no drama playing my guitar bored at home.",
   },
@@ -190,7 +190,7 @@ export const data = {
     name: "Tiago Sada",
     image: "tiago.png",
     twitter: "tiagosada",
-    website: "https://www.tiagosada.com/",
+    website: "www.tiagosada.com/",
     description:
       "Nothing too complicated activity partners if you think we have something in common easy-going. Long-term dating Netflix fixing my scooter beach days trying this for the first time, glass half-full what to order off of the menu no drama playing my guitar bored at home.",
   },
@@ -200,7 +200,7 @@ export const data = {
     twitter: "vhuang_",
     description: "",
     github: "vincenthuang75025",
-    website: "http://vvhuang.com/",
+    website: "vvhuang.com/",
     backgroundColor: "#000",
   },
   william: {
