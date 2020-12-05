@@ -2,17 +2,17 @@ export const data = {
   athena: {
     name: "Athena Leong",
     image: "athena.jpeg",
-    website: "atehna.com",
-    twitter: "atehnaaaa",
-    github: "atehnaaaa",
+    website: "http://athenaleong.tech/",
+    twitter: "athleong",
+    github: "athenaleong",
     description:
       "A concrete way to do it in a while back in the middle of nowhere so its not a great bound but maybe some adjustments can be made to makesure to keep up with the latest trends.",
   },
   azlen: {
     name: "Azlen Elza",
     image: "azlen.png",
-    website: "",
-    github: "",
+    website: "https://azlen.me/",
+    github: "azlen",
     twitter: "azlenelza",
     description:
       "I have been mailed out the check and will send you a copy in a while to send the signed documents in to the dumpster office on Monday and we can also send the signed documents in to the dumpster..",
@@ -21,7 +21,7 @@ export const data = {
     name: "Chris Axon",
     image: "chris.jpeg",
     website: "",
-    github: "",
+    github: "caxon",
     twitter: "caxon_",
     description:
       "He has a version of his own and the other one that I have been using it to make a great deal for me to be sensitive and to make things happen to you before you go to sleep in a perfect mood..",
@@ -47,12 +47,15 @@ export const data = {
     name: "Dmitri Brereton",
     image: "dmitri.jpeg",
     twitter: "dkb868",
+    github: "dkb868",
     description:
       "The other ppl have a great time and a great time for you guys to see the kids to be able and see if you have strong though I'm not going down to your place to be O with you guys.",
   },
   ethan: {
     name: "Ethan Perez",
     image: "ethan.jpeg",
+    github: "ethanjperez",
+    website: "https://ethanperez.net/",
     description:
       "Nothing too complicated activity partners if you think we have something in common easy-going. Long-term dating Netflix fixing my scooter beach days trying this for the first time, glass half-full what to order off of the menu no drama playing my guitar bored at home.",
   },
@@ -83,6 +86,7 @@ export const data = {
   kesava: {
     name: "Kesava Kirupa Dinakaran",
     image: "kesava.jpeg",
+    twitter: "kesava_kirupa",
     description:
       "Nothing too complicated activity partners if you think we have something in common easy-going. Long-term dating Netflix fixing my scooter beach days trying this for the first time, glass half-full what to order off of the menu no drama playing my guitar bored at home.",
   },
@@ -100,12 +104,14 @@ export const data = {
     name: "Marley Xiong",
     image: "marley.jpeg",
     twitter: "_marleyx",
+    github: "io0",
     description: "Marley smarley barley tarley darley",
   },
   matthew: {
     name: "Matthew Siu",
     image: "matthew.jpeg",
     twitter: "MatthewWSiu",
+    github: "Siunami",
     description:
       "Nothing too complicated activity partners if you think we have something in common easy-going. Long-term dating Netflix fixing my scooter beach days trying this for the first time, glass half-full what to order off of the menu no drama playing my guitar bored at home.",
   },
@@ -113,6 +119,8 @@ export const data = {
     name: "Noah Trenaman",
     image: "noah.jpg",
     twitter: "noahtren",
+    github: "noahtren",
+    website: "https://noahtren.com/",
     description:
       "Nothing too complicated activity partners if you think we have something in common easy-going. Long-term dating Netflix fixing my scooter beach days trying this for the first time, glass half-full what to order off of the menu no drama playing my guitar bored at home.",
   },
@@ -120,12 +128,14 @@ export const data = {
     name: "Raffi Hotter",
     image: "raffi.jpeg",
     twitter: "raffi_hotter",
+    github: "rhotter",
     description:
       "Nothing too complicated activity partners if you think we have something in common easy-going. Long-term dating Netflix fixing my scooter beach days trying this for the first time, glass half-full what to order off of the menu no drama playing my guitar bored at home.",
   },
   santi: {
     name: "Santi Aranguri",
     image: "santi.jpeg",
+    github: "Aranguri",
     description:
       "Nothing too complicated activity partners if you think we have something in common easy-going. Long-term dating Netflix fixing my scooter beach days trying this for the first time, glass half-full what to order off of the menu no drama playing my guitar bored at home.",
   },
@@ -133,6 +143,8 @@ export const data = {
     name: "Stephen Fay",
     image: "steve.jpeg",
     twitter: "dcxStep",
+    github: "dcxst",
+    website: "https://dcxst.github.io/",
     description:
       "Nothing too complicated activity partners if you think we have something in common easy-going. Long-term dating Netflix fixing my scooter beach days trying this for the first time, glass half-full what to order off of the menu no drama playing my guitar bored at home.",
   },
@@ -140,6 +152,7 @@ export const data = {
     name: "Taylor Rogalski",
     image: "taylor.png",
     twitter: "tayroga",
+    website: "https://tay.ro/",
     description:
       "Nothing too complicated activity partners if you think we have something in common easy-going. Long-term dating Netflix fixing my scooter beach days trying this for the first time, glass half-full what to order off of the menu no drama playing my guitar bored at home.",
   },
@@ -147,6 +160,7 @@ export const data = {
     name: "Tiago Sada",
     image: "tiago.png",
     twitter: "tiagosada",
+    website: "https://www.tiagosada.com/",
     description:
       "Nothing too complicated activity partners if you think we have something in common easy-going. Long-term dating Netflix fixing my scooter beach days trying this for the first time, glass half-full what to order off of the menu no drama playing my guitar bored at home.",
   },
@@ -155,100 +169,15 @@ export const data = {
     image: "vincent.jpg",
     twitter: "vhuang_",
     description: "",
-    backgroundColor: "#000",
-  },
-  william: {
-    name: "William Bryk",
-    website: "www.welcometothecosmos.com/",
-    image: "taylor.png",
-    twitter: "tayroga",
-    description:
-      "Nothing too complicated activity partners if you think we have something in common easy-going. Long-term dating Netflix fixing my scooter beach days trying this for the first time, glass half-full what to order off of the menu no drama playing my guitar bored at home.",
-  },
-  tiago: {
-    name: "Tiago Sada",
-    image: "tiago.png",
-    twitter: "tiagosada",
-    description:
-      "Nothing too complicated activity partners if you think we have something in common easy-going. Long-term dating Netflix fixing my scooter beach days trying this for the first time, glass half-full what to order off of the menu no drama playing my guitar bored at home.",
-  },
-  vincent: {
-    name: "Vincent Huang",
-    image: "vincent.jpg",
-    twitter: "vhuang_",
-    description: "",
-    backgroundColor: "#000",
-  },
-  william: {
-    name: "William Bryk",
-    website: "www.welcometothecosmos.com/",
-    image: "taylor.png",
-    twitter: "tayroga",
-    description:
-      "Nothing too complicated activity partners if you think we have something in common easy-going. Long-term dating Netflix fixing my scooter beach days trying this for the first time, glass half-full what to order off of the menu no drama playing my guitar bored at home.",
-  },
-  tiago: {
-    name: "Tiago Sada",
-    image: "tiago.png",
-    twitter: "tiagosada",
-    description:
-      "Nothing too complicated activity partners if you think we have something in common easy-going. Long-term dating Netflix fixing my scooter beach days trying this for the first time, glass half-full what to order off of the menu no drama playing my guitar bored at home.",
-  },
-  vincent: {
-    name: "Vincent Huang",
-    image: "vincent.jpg",
-    twitter: "vhuang_",
-    description: "",
-    backgroundColor: "#000",
-  },
-  william: {
-    name: "William Bryk",
-    website: "www.welcometothecosmos.com/",
-    image: "taylor.png",
-    twitter: "tayroga",
-    description:
-      "Nothing too complicated activity partners if you think we have something in common easy-going. Long-term dating Netflix fixing my scooter beach days trying this for the first time, glass half-full what to order off of the menu no drama playing my guitar bored at home.",
-  },
-  tiago: {
-    name: "Tiago Sada",
-    image: "tiago.png",
-    twitter: "tiagosada",
-    description:
-      "Nothing too complicated activity partners if you think we have something in common easy-going. Long-term dating Netflix fixing my scooter beach days trying this for the first time, glass half-full what to order off of the menu no drama playing my guitar bored at home.",
-  },
-  vincent: {
-    name: "Vincent Huang",
-    image: "vincent.jpg",
-    twitter: "vhuang_",
-    description: "",
-    backgroundColor: "#000",
-  },
-  william: {
-    name: "William Bryk",
-    website: "www.welcometothecosmos.com/",
-    image: "taylor.png",
-    twitter: "tayroga",
-    description:
-      "Nothing too complicated activity partners if you think we have something in common easy-going. Long-term dating Netflix fixing my scooter beach days trying this for the first time, glass half-full what to order off of the menu no drama playing my guitar bored at home.",
-  },
-  tiago: {
-    name: "Tiago Sada",
-    image: "tiago.png",
-    twitter: "tiagosada",
-    description:
-      "Nothing too complicated activity partners if you think we have something in common easy-going. Long-term dating Netflix fixing my scooter beach days trying this for the first time, glass half-full what to order off of the menu no drama playing my guitar bored at home.",
-  },
-  vincent: {
-    name: "Vincent Huang",
-    image: "vincent.jpg",
-    twitter: "vhuang_",
-    description: "",
+    github: "vincenthuang75025",
+    website: "http://vvhuang.com/",
     backgroundColor: "#000",
   },
   william: {
     name: "William Bryk",
     website: "www.welcometothecosmos.com/",
     image: "william.png",
+    github: "willbryk720",
     description:
       "Nothing too complicated activity partners if you think we have something in common easy-going. Long-term dating Netflix fixing my scooter beach days trying this for the first time, glass half-full what to order off of the menu no drama playing my guitar bored at home.",
   },
