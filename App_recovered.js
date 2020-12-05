@@ -116,103 +116,109 @@ const App = () => {
           >
             {activePerson || `School 2.0 Yearbook`}
           </h1>
-
-          <div className="chococ">
-            <div id="other-choco"></div>
-            <div id="inside-choco"></div>
-          </div>
-          <div className="grid-container">
-            {Object.entries(data).map(([name, info]) => {
-              // console.log("./img/" + info.image);
-              return (
-                <div className="person">
-                  <img
-                    id={name}
-                    src={Object.values(images[name])[0]}
-                    alt=""
-                    onMouseOver={() => onPersonHover(name)}
-                    onMouseOut={onPersonHoverRemoved}
-                  />
-                  {getDecorations(name)}
-                  <h2>{info.name}</h2>
-                  <ul className="social-links">
-                    {info.github && (
-                      <li>
-                        <a
-                          href={`https://github.com/${info.github}`}
-                          target="_blank"
-                        >
-                          <i class="fab fa-github"></i>
-                        </a>
-                      </li>
-                    )}
-                    {info.website && (
-                      <li>
-                        <a href={`https://${info.website}`} target="_blank">
-                          <i class="fas fa-link"></i>
-                        </a>
-                      </li>
-                    )}
-                    {info.twitter && (
-                      <li>
-                        <a
-                          href={`https://twitter.com/${info.twitter}`}
-                          target="_blank"
-                        >
-                          <i class="fab fa-twitter"></i>
-                        </a>
-                      </li>
-                    )}
-                  </ul>
-                  <p>{info.description}</p>
-                </div>
-              );
-            })}
-          </div>
-          {/* <PersonHover active={activePerson === "jonathan"}>
+          <div
+            id="overlay"
+            css={css`
+              ${overlayStyle}
+            `}
+          >
+            <div className="chococ">
+              <div id="other-choco"></div>
+              <div id="inside-choco"></div>
+            </div>
+            <div className="grid-container">
+              {Object.entries(data).map(([name, info]) => {
+                // console.log("./img/" + info.image);
+                return (
+                  <div className="person">
+                    <img
+                      id={name}
+                      src={Object.values(images[name])[0]}
+                      alt=""
+                      onMouseOver={() => onPersonHover(name)}
+                      onMouseOut={onPersonHoverRemoved}
+                    />
+                    {getDecorations(name)}
+                    <h2>{info.name}</h2>
+                    <ul className="social-links">
+                      {info.github && (
+                        <li>
+                          <a
+                            href={`https://github.com/${info.github}`}
+                            target="_blank"
+                          >
+                            <i class="fab fa-github"></i>
+                          </a>
+                        </li>
+                      )}
+                      {info.website && (
+                        <li>
+                          <a href={`https://${info.website}`} target="_blank">
+                            <i class="fas fa-link"></i>
+                          </a>
+                        </li>
+                      )}
+                      {info.twitter && (
+                        <li>
+                          <a
+                            href={`https://twitter.com/${info.twitter}`}
+                            target="_blank"
+                          >
+                            <i class="fab fa-twitter"></i>
+                          </a>
+                        </li>
+                      )}
+                    </ul>
+                    <p>{info.description}</p>
+                  </div>
+                );
+              })}
+            </div>
+            {/* <PersonHover active={activePerson === "jonathan"}>
             <div id="poggers" className="noHover">
               POGGERS
             </div>
           </PersonHover> */}
-          {/* <PersonHover active={activePerson === "liam"}>
+            {/* <PersonHover active={activePerson === "liam"}>
             <div id="dev" className="noHover">
               9.2X developer
             </div>
           </PersonHover> */}
-          <div class="box">
-            <b></b>
-            <b></b>
-            <b></b>
-            <b></b>
-            <b id="myboy"></b>
-          </div>
-          {steves.map((el) => (
-            <div
-              css={css`
-                position: fixed;
-                left: ${el.n * 100}px;
-                width: 100px;
-              `}
-              className="noHover"
-            >
-              <img
+            <div class="box">
+              <b></b>
+              <b></b>
+              <b></b>
+              <b></b>
+              <b id="myboy"></b>
+            </div>
+            {steves.map((el) => (
+              <div
                 css={css`
                   position: fixed;
                   left: ${el.n * 100}px;
                   width: 100px;
                 `}
                 className="noHover"
-              />
-              <img
-                css={css`
-                  width: ${100 + el.n * 10}px;
-                `}
-                src={Object.values(images["steve"])[0]}
-                alt=""
-                className="noHover"
-              />
-            </div>
-          ))}
+              >
+                <img
+                  css={css`
+                    position: fixed;
+                    left: ${el.n * 100}px;
+                    width: 100px;
+                  `}
+                  className="noHover"
+                />
+                <img
+                  css={css`
+                    width: ${100 + el.n * 10}px;
+                  `}
+                  src={Object.values(images["steve"])[0]}
+                  alt=""
+                  className="noHover"
+                />
+              </div>
+            ))}
+          </div>
         </div>
       </div>
     </div>
