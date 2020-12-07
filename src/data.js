@@ -211,4 +211,11 @@ export const data = {
     description:
       "Nothing too complicated activity partners if you think we have something in common easy-going. Long-term dating Netflix fixing my scooter beach days trying this for the first time, glass half-full what to order off of the menu no drama playing my guitar bored at home.",
   },
+  nala: {
+    name: "Nala Dog",
+    website: "https://www.pexels.com/search/dog/",
+    image: "nala.jpg",
+    github: "willbryk720",
+    description: "Nala doesn't bark, but if she did she would probably say 'woof, woof, woof woof'"
+  }
 };
