@@ -138,6 +138,24 @@
 #noah:hover ~ #india {
   display: block;
 }
+
+// Geffen
+#geffen-text {
+  font-size: 128px;
+  position: fixed;
+  left: 0;
+  bottom: 50%;
+  visibility: hidden;
+  font-family: "Times New Roman", Times, serif;
+}
+
+#geffen:hover ~ #geffen-text {
+  animation: right-scrolling-text 4s linear infinite;
+  color: #fff;
+  display: block;
+  visibility: visible;
+}
+
 //  Vincent
 #vincent-hey {
   font-size: 64px;
@@ -205,6 +223,16 @@
 
   to {
     transform: translateX(-120%);
+  }
+}
+
+@keyframes right-scrolling-text {
+  from {
+    transform: translateX(-120%);
+  }
+
+  to {
+    transform: translateX(120%);
   }
 }
 

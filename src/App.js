@@ -30,6 +30,10 @@ const App = () => {
       setOverlayStyles(
         `background-image: url(https://4.bp.blogspot.com/-Gmx13XLzHo0/Tj4eRdB-6YI/AAAAAAAAB40/sNpJse1nBLY/s500/Swiss+Miss+logo+2010.jpg)`
       );
+    } else if (activePerson === "geffen") {
+      setOverlayStyles(
+        `background-image: url(https://ak.picdn.net/shutterstock/videos/1033914530/thumb/1.jpg)`
+      );
     } else {
       setOverlayStyles("");
     }
@@ -102,6 +106,12 @@ const App = () => {
             ))}
           </>
         );
+      case "geffen":
+        return (
+          <div id="geffen-text" className="noHover">
+            I am an artist! I am a builder! I cannot just be flipping burgers!
+          </div>
+        );
       default:
         return null;
     }
@@ -122,8 +132,8 @@ const App = () => {
       setSteves([]);
     }
   }, [activePerson]);
-  console.log("active", data?.[activePerson]?.backgroundColor);
-  console.log("steves", steves);
+  // console.log("active", data?.[activePerson]?.backgroundColor);
+  // console.log("steves", steves);
   return (
     <div
       css={css`
