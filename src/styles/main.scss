@@ -71,6 +71,19 @@
 #jonathan:hover ~ #poggers {
   display: block;
 }
+#scooby {
+  visibility: hidden;
+  position: fixed;
+  top: 150px;
+  left: 0;
+  width: 100%;
+  transition: transform 0.1s linear;
+}
+#matt:hover ~#scooby {
+  visibility: visible;
+  transform: scale(10);
+  transition: transform 3s linear;
+}
 #dev {
   visibility: hidden;
   font-size: 20px;
@@ -151,7 +164,7 @@
 
 #geffen:hover ~ #geffen-text {
   animation: left-scrolling-text 8s linear infinite;
-  color: #770077;
+color: #770077;
   display: block;
   visibility: visible;
 }
@@ -164,6 +177,13 @@
   bottom: 50%;
   visibility: hidden;
   font-family: "Times New Roman", Times, serif;
+}
+
+#kesava:hover ~#vincent-hey {
+  animation: left-scrolling-text 7s linear infinite;
+  color: #440000;
+  display: block;
+  visibility: visible;
 }
 
 #vincent:hover ~ #vincent-hey {

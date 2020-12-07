@@ -33,8 +33,9 @@ const App = () => {
       setOverlayStyles(
         `background-image: url(${getImagePath("galaxy")})`);
     } else if (activePerson === "santi") {
-      setOverlayStyles(
-        `background-image: url(${getImagePath("onion")})`);
+      setOverlayStyles(`background-image: url(${getImagePath("onion")})`);
+    } else if (activePerson === "harshu") {
+      setOverlayStyles(`background-image: url(${getImagePath("covid")})`);
     } else {
       setOverlayStyles("");
     }
@@ -51,6 +52,12 @@ const App = () => {
           </div>
         );
         break;
+      // case "matt":
+      //   return (
+      //     <div id="scooby" className="noHover">
+      //       <img>
+      //     </div>
+      //   );
       case "liam":
         return (
           <div id="dev" className="noHover">
@@ -60,7 +67,13 @@ const App = () => {
       case "vincent":
         return (
           <div id="vincent-hey" className="noHover">
-            heyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
+            heyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
+          </div>
+        );
+      case "kesava":
+        return (
+          <div id="vincent-hey" className="noHover">
+            Rubik's cube helped this founder leave his coconut farm in India and get $3 million in funding for his startup in less than two years
           </div>
         );
       case "noah":

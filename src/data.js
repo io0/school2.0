@@ -212,7 +212,7 @@ export const data = {
       "Nothing too complicated activity partners if you think we have something in common easy-going. Long-term dating Netflix fixing my scooter beach days trying this for the first time, glass half-full what to order off of the menu no drama playing my guitar bored at home.",
   },
   nala: {
-    name: "Nala Dog",
+    name: "Nala",
     website: "https://www.pexels.com/search/dog/",
     image: "nala.jpg",
     github: "willbryk720",
