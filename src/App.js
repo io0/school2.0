@@ -28,12 +28,13 @@ const App = () => {
       setOverlayStyles(`background-image: url(${getImagePath("india")})`);
     } else if (activePerson === "raffi") {
       setOverlayStyles(
-        `background-image: url(https://4.bp.blogspot.com/-Gmx13XLzHo0/Tj4eRdB-6YI/AAAAAAAAB40/sNpJse1nBLY/s500/Swiss+Miss+logo+2010.jpg)`
-      );
+        `background-image: url(${getImagePath("swiss_miss")})`);
     } else if (activePerson === "geffen") {
       setOverlayStyles(
-        `background-image: url(https://ak.picdn.net/shutterstock/videos/1033914530/thumb/1.jpg)`
-      );
+        `background-image: url(${getImagePath("galaxy")})`);
+    } else if (activePerson === "santi") {
+      setOverlayStyles(
+        `background-image: url(${getImagePath("onion")})`);
     } else {
       setOverlayStyles("");
     }
