@@ -29,12 +29,14 @@ const App = () => {
       setOverlayStyles(`background-image: url(${getImagePath("india")})`);
     } else if (activePerson === "raffi") {
       setOverlayStyles(
-        `background-image: url(https://4.bp.blogspot.com/-Gmx13XLzHo0/Tj4eRdB-6YI/AAAAAAAAB40/sNpJse1nBLY/s500/Swiss+Miss+logo+2010.jpg)`
-      );
+        `background-image: url(${getImagePath("swiss_miss")})`);
     } else if (activePerson === "geffen") {
       setOverlayStyles(
-        `background-image: url(https://ak.picdn.net/shutterstock/videos/1033914530/thumb/1.jpg)`
-      );
+        `background-image: url(${getImagePath("galaxy")})`);
+    } else if (activePerson === "santi") {
+      setOverlayStyles(`background-image: url(${getImagePath("onion")})`);
+    } else if (activePerson === "harshu") {
+      setOverlayStyles(`background-image: url(${getImagePath("covid")})`);
     } else {
       setOverlayStyles("");
     }
@@ -51,6 +53,12 @@ const App = () => {
           </div>
         );
         break;
+      // case "matt":
+      //   return (
+      //     <div id="scooby" className="noHover">
+      //       <img>
+      //     </div>
+      //   );
       case "liam":
         return (
           <div id="dev" className="noHover">
@@ -60,7 +68,13 @@ const App = () => {
       case "vincent":
         return (
           <div id="vincent-hey" className="noHover">
-            heyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
+            heyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
+          </div>
+        );
+      case "kesava":
+        return (
+          <div id="vincent-hey" className="noHover">
+            Rubik's cube helped this founder leave his coconut farm in India and get $3 million in funding for his startup in less than two years
           </div>
         );
       case "noah":
