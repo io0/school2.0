@@ -4,6 +4,7 @@ import { data } from "./data";
 import { css } from "@emotion/core";
 import images from "./img/*.*";
 import PersonHover from "./PersonHover";
+import Stick from "./Stick";
 
 const App = () => {
   const [activePerson, setActivePerson] = useState("");
@@ -112,6 +113,8 @@ const App = () => {
             I am an artist! I am a builder! I cannot just be flipping burgers!
           </div>
         );
+      case "dmitri":
+        return <Stick />;
       default:
         return null;
     }
