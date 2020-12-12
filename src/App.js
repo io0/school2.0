@@ -28,11 +28,9 @@ const App = () => {
     if (activePerson === "noah") {
       setOverlayStyles(`background-image: url(${getImagePath("india")})`);
     } else if (activePerson === "raffi") {
-      setOverlayStyles(
-        `background-image: url(${getImagePath("swiss_miss")})`);
+      setOverlayStyles(`background-image: url(${getImagePath("swiss_miss")})`);
     } else if (activePerson === "geffen") {
-      setOverlayStyles(
-        `background-image: url(${getImagePath("galaxy")})`);
+      setOverlayStyles(`background-image: url(${getImagePath("galaxy")})`);
     } else if (activePerson === "santi") {
       setOverlayStyles(`background-image: url(${getImagePath("onion")})`);
     } else if (activePerson === "harshu") {
@@ -74,7 +72,8 @@ const App = () => {
       case "kesava":
         return (
           <div id="vincent-hey" className="noHover">
-            Rubik's cube helped this founder leave his coconut farm in India and get $3 million in funding for his startup in less than two years
+            Rubik's cube helped this founder leave his coconut farm in India and
+            get $3 million in funding for his startup in less than two years
           </div>
         );
       case "noah":
@@ -190,6 +189,8 @@ const App = () => {
                     src={
                       activePerson === "tiago" && name !== "tiago"
                         ? getImagePath("ycombinator")
+                        : activePerson === name
+                        ? Object.values(images[name + "2"])[0]
                         : Object.values(images[name])[0]
                     }
                     alt=""
@@ -246,6 +247,16 @@ const App = () => {
               9.2X developer
             </div>
           </PersonHover> */}
+          <iframe
+            src="https://blog.noahtren.com/note/0738d304/"
+            css={css`
+              width: 90%;
+              height: 90vh;
+              margin: 5%;
+              // margin: 0 auto;
+              // display: table;
+            `}
+          ></iframe>
         </div>
       </div>
     </div>
