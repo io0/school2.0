@@ -126,6 +126,40 @@ const App = () => {
             I am an artist! I am a builder! I cannot just be flipping burgers!
           </div>
         );
+      case "william":
+        return (
+          <div id="william-text" className="noHover">
+            <div>Drop down and give me 20</div>
+            <div>
+              <img
+                css={css`
+                  width: 100px !important;
+                `}
+                src={getImagePath("pngegg")}
+                alt=""
+              />
+            </div>
+            <div>♫MONEY♫</div>
+            <div>
+              <img
+                css={css`
+                  width: 300px !important;
+                `}
+                src={getImagePath("manEvolution")}
+                alt=""
+              />
+            </div>
+            <div>
+              <img
+                css={css`
+                  width: 500px !important;
+                `}
+                src={getImagePath("money")}
+                alt=""
+              />
+            </div>
+          </div>
+        );
       case "dmitri":
         return <Stick />;
       default:
