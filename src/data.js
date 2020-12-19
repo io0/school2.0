@@ -213,9 +213,10 @@ export const data = {
   },
   nala: {
     name: "Nala",
-    website: "https://www.pexels.com/search/dog/",
+    website: "blog.noahtren.com/note/0738d304/",
     image: "nala.jpg",
     github: "willbryk720",
-    description: "Nala doesn't bark, but if she did she would probably say 'woof, woof, woof woof'"
-  }
+    description:
+      "Nala doesn't bark, but if she did she would probably say 'woof, woof, woof woof'",
+  },
 };
