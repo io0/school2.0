@@ -5,6 +5,7 @@ import { css } from "@emotion/core";
 import images from "./img/*.*";
 import PersonHover from "./PersonHover";
 import Stick from "./Stick";
+import TaylorComponent from "./styles/TaylorComponent";
 
 const App = () => {
   const [activePerson, setActivePerson] = useState("");
@@ -33,6 +34,10 @@ const App = () => {
       setOverlayStyles(`background-image: url(${getImagePath("galaxy")})`);
     } else if (activePerson === "santi") {
       setOverlayStyles(`background-image: url(${getImagePath("onion")})`);
+    } else if (activePerson === "felipe") {
+      setOverlayStyles(
+        `background-image: url(https://lh3.googleusercontent.com/proxy/LVCs9Cy8_X4aSS-_4HV-Ny4fTNZY5djRZEiCxDJDDMuntV2X9DMcWWb7O-HJZGzEIur-KIuaCUneIj0TVsNcUHTaZPBBRNihSw)`
+      );
     } else if (activePerson === "harshu") {
       setOverlayStyles(`background-image: url(${getImagePath("covid")})`);
     } else {
@@ -42,6 +47,22 @@ const App = () => {
 
   const getDecorations = (name) => {
     switch (name) {
+      case "bonnie":
+        return (
+          <div id="bonnie-beer" className="noHover">
+            {[...Array(10).keys()].map((el) => (
+              <div>
+                <img
+                  css={css`
+                    width: 70px !important;
+                  `}
+                  src={getImagePath("beer")}
+                  alt=""
+                />
+              </div>
+            ))}
+          </div>
+        );
       case "raffi":
         return <div id="choco" className="noHover"></div>;
       case "jonathan":
@@ -69,6 +90,8 @@ const App = () => {
             heyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
           </div>
         );
+      case "taylor":
+        return <TaylorComponent />;
       case "kesava":
         return (
           <div id="vincent-hey" className="noHover">
@@ -102,7 +125,8 @@ const App = () => {
               <div
                 css={css`
                   position: fixed;
-                  left: ${el.n * 100}px;
+                  left: ${el.n * 50}px;
+                  transform: rotate(${el.n * 15}deg);
                   top: 100px;
                   width: 100px;
                 `}
@@ -124,6 +148,14 @@ const App = () => {
         return (
           <div id="geffen-text" className="noHover">
             I am an artist! I am a builder! I cannot just be flipping burgers!
+          </div>
+        );
+      case "felipe":
+        return (
+          <div id="vincent-hey" className="noHover">
+            Hi! I'm Felipe, your local handsome effective altruist. So, let me
+            get started by telling you about longtermism, and why we need to
+            start having more babies.
           </div>
         );
       case "william":
@@ -168,7 +200,7 @@ const App = () => {
   };
   useEffect(() => {
     if (activePerson === "steve" && !steves.length) {
-      const timeoutIDs = [...Array(10).keys()].map((n) => {
+      const timeoutIDs = [...Array(23).keys()].map((n) => {
         window.setTimeout(() => {
           console.log(n);
           setSteves([...Array(n).keys()].map((el) => ({ n: el })));

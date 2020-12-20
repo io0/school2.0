@@ -5,7 +5,7 @@ export const data = {
     website: "www.amandango.me/",
     twitter: "",
     github: "",
-    description: "yee",
+    description: "hypnosis??",
   },
   athena: {
     name: "Athena Leong",
@@ -197,7 +197,7 @@ export const data = {
   vincent: {
     name: "Vincent Huang",
     image: "vincent.jpg",
-    twitter: "vhuang_",
+    twitter: "vvhuang_",
     description: "",
     github: "vincenthuang75025",
     website: "vvhuang.com/",
