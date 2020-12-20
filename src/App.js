@@ -6,6 +6,7 @@ import images from "./img/*.*";
 import dhruvikvideo from "./video/dhruvik.mp4";
 import PersonHover from "./PersonHover";
 import Stick from "./Stick";
+import Cube from "./Cube";
 import TaylorComponent from "./styles/TaylorComponent";
 
 const App = () => {
@@ -44,6 +45,11 @@ const App = () => {
       setOverlayStyles(`background-image: url(${getImagePath("covid")})`);
     } else if (activePerson === "dhruvik") {
       setOverlayStyles(`background-image: url(${getImagePath("drupey")})`);
+    } else if (activePerson === "david") {
+      setOverlayStyles(
+        `background-image: linear-gradient(135deg, rgb(42, 60, 173), rgb(59, 153, 199));
+        font-family: "Croissant One";`
+      );
     } else {
       setOverlayStyles("");
     }
@@ -115,9 +121,14 @@ const App = () => {
         return <TaylorComponent />;
       case "kesava":
         return (
-          <div id="vincent-hey" className="noHover">
-            Rubik's cube helped this founder leave his coconut farm in India and
-            get $3 million in funding for his startup in less than two years
+          <div id="kesava-magic" className="noHover">
+            <div id="kesava-text">
+              Rubik's cube helped this founder leave his coconut farm in India
+              and get $3 million in funding for his startup in less than two
+              years
+            </div>
+
+            <Cube />
           </div>
         );
       case "noah":

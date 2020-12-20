@@ -4,6 +4,8 @@
   grid-column-gap: 25px;
 }
 
+@import url("https://fonts.googleapis.com/css2?family=Croissant+One&display=swap");
+
 .person {
   padding: 10px;
   h2 {
@@ -179,13 +181,6 @@
   font-family: "Times New Roman", Times, serif;
 }
 
-#kesava:hover ~ #vincent-hey {
-  animation: left-scrolling-text 7s linear infinite;
-  color: #440000;
-  display: block;
-  visibility: visible;
-}
-
 #felipe:hover ~ #vincent-hey {
   animation: left-scrolling-text 7s linear infinite;
   color: #440000;
@@ -194,8 +189,8 @@
 }
 
 #taylor:hover ~ #vincent-hey {
-  font-size: 10px;
-  animation: right-scrolling-text 20s linear infinite;
+  font-size: 12px;
+  animation: down-right-scrolling-text 5s linear infinite;
   color: #440000;
   display: block;
   visibility: visible;
@@ -349,6 +344,16 @@
 
   to {
     transform: translateX(100%);
+  }
+}
+
+@keyframes down-right-scrolling-text {
+  from {
+    transform: translateX(-100%) translateY(-100%);
+  }
+
+  to {
+    transform: translateX(100%) translateY(100%);
   }
 }
 
@@ -608,4 +613,503 @@
     top: 25%;
     left: 25%;
   }
+}
+
+// kesava
+$background: #ed4337;
+$animationTime: 20s;
+
+$red: #c41e3a;
+$green: #009e60;
+$blue: #0051ba;
+$orange: #ff5800;
+$yellow: #ffd500;
+$white: #ffffff;
+
+@mixin makeSpinningAnimation(
+  $name,
+  $axis,
+  $initialAngle,
+  $stop1,
+  $endStop1,
+  $stop2,
+  $endStop2
+) {
+  @keyframes #{$name} {
+    #{$initialAngle}% {
+      transform: #{"rotate" + $axis + "(0deg)"};
+    }
+    #{$stop1}% {
+      transform: #{"rotate" + $axis + "(90deg)"};
+    }
+    #{$endStop1}% {
+      transform: #{"rotate" + $axis + "(90deg)"};
+    }
+    #{$stop2}% {
+      transform: #{"rotate" + $axis + "(360deg)"};
+    }
+    #{$endStop2}% {
+      transform: #{"rotate" + $axis + "(360deg)"};
+    }
+  }
+}
+
+@mixin makeOpaque($animNum, $startPer, $endPer) {
+  @keyframes makeOpaque#{$animNum} {
+    #{$startPer - .01}% {
+      opacity: 1;
+    }
+    #{$startPer}% {
+      opacity: 0;
+    }
+    #{$endPer - .01}% {
+      opacity: 0;
+    }
+    #{$endPer}% {
+      opacity: 1;
+    }
+  }
+}
+
+@keyframes rotate {
+  from {
+    transform: rotateY(-30deg) rotateX(-30deg);
+  }
+  to {
+    transform: rotateY(690deg) rotateX(-30deg);
+  }
+}
+
+@include makeSpinningAnimation(spinTopRow, Y, 0, 5, 45, 50, 100);
+@include makeSpinningAnimation(spinMiddleColumn, X, 25, 35, 75, 85, 100);
+@include makeSpinningAnimation(spinMiddleRow, Y, 40, 45, 90, 95, 100);
+
+@include makeOpaque(1, 0.01, 5);
+@include makeOpaque(2, 45, 50);
+
+@include makeOpaque(3, 25, 35);
+@include makeOpaque(4, 75, 90);
+
+@include makeOpaque(5, 40, 45);
+@include makeOpaque(6, 90, 95);
+
+@include makeOpaque(7, 75, 90);
+
+@mixin cell($color) {
+  background: $color;
+  position: absolute;
+  display: block;
+  width: 3.6em;
+  height: 3.6em;
+  border-radius: 15%;
+}
+
+.rubiks-container {
+  perspective: 800px;
+  margin: 10vh auto;
+  height: 22em;
+  width: 22em;
+  position: relative;
+  border-radius: 10%;
+  .rubiks-cube {
+    width: 12em;
+    height: 12em;
+    margin: 5em;
+    position: absolute;
+    animation: rotate $animationTime infinite linear;
+    transform-style: preserve-3d;
+    transform: rotateY(-30deg) rotateX(-30deg) scale3d(0.7, 0.7, 0.7);
+  }
+  .top-clone {
+    z-index: 100;
+    position: absolute;
+    width: 12em;
+    height: 12em;
+    transform-style: preserve-3d;
+    animation: spinTopRow $animationTime infinite linear;
+    .clone-left {
+      left: 0;
+      .left-one {
+        @include cell($red);
+      }
+      .left-two {
+        animation: makeOpaque3 $animationTime infinite linear;
+        @include cell($green);
+      }
+      .left-three {
+        @include cell($blue);
+      }
+    }
+    .clone-middle {
+      left: 4em;
+      animation: makeOpaque7 $animationTime infinite linear;
+      .middle-one {
+        @include cell($white);
+      }
+      .middle-two {
+        animation: makeOpaque3 $animationTime infinite linear;
+        @include cell($blue);
+      }
+      .middle-three {
+        @include cell($green);
+      }
+    }
+    .clone-right {
+      left: 8em;
+      .right-one {
+        @include cell($orange);
+      }
+      .right-two {
+        animation: makeOpaque3 $animationTime infinite linear;
+        @include cell($orange);
+      }
+      .right-three {
+        @include cell($white);
+      }
+    }
+  }
+  .top-row,
+  .middle-row,
+  .bottom-row {
+    position: absolute;
+    top: 0;
+    width: 12em;
+    height: 4em;
+    transform-style: preserve-3d;
+  }
+  .top-row {
+    top: 0;
+    animation: spinTopRow $animationTime infinite linear;
+    .front {
+      .front-one {
+        @include cell($green);
+      }
+      .front-two {
+        animation: makeOpaque4 $animationTime infinite linear;
+        @include cell($white);
+      }
+      .front-three {
+        @include cell($orange);
+      }
+    }
+    .left {
+      .left-one {
+        @include cell($orange);
+      }
+      .left-two {
+        animation: makeOpaque3 $animationTime infinite linear;
+        @include cell($white);
+      }
+      .left-three {
+        @include cell($red);
+      }
+    }
+    .back {
+      .back-one {
+        @include cell($red);
+      }
+      .back-two {
+        animation: makeOpaque4 $animationTime infinite linear;
+        @include cell($blue);
+      }
+      .back-three {
+        @include cell($yellow);
+      }
+    }
+    .right {
+      .right-one {
+        @include cell($white);
+      }
+      .right-two {
+        animation: makeOpaque3 $animationTime infinite linear;
+        @include cell($blue);
+      }
+      .right-three {
+        @include cell($green);
+      }
+    }
+  }
+  .middle-row {
+    top: 4em;
+    animation: spinMiddleRow $animationTime infinite linear;
+    .front {
+      .front-one {
+        @include cell($orange);
+      }
+      .front-two {
+        animation: makeOpaque3 $animationTime infinite linear;
+        @include cell($blue);
+      }
+      .front-three {
+        @include cell($red);
+      }
+    }
+    .left {
+      .left-one {
+        @include cell($white);
+      }
+      .left-two {
+        animation: makeOpaque4 $animationTime infinite linear;
+        @include cell($blue);
+      }
+      .left-three {
+        @include cell($yellow);
+      }
+    }
+    .back {
+      .back-one {
+        @include cell($red);
+      }
+      .back-two {
+        animation: makeOpaque3 $animationTime infinite linear;
+        @include cell($orange);
+      }
+      .back-three {
+        @include cell($green);
+      }
+    }
+    .right {
+      .right-one {
+        @include cell($yellow);
+      }
+      .right-two {
+        animation: makeOpaque4 $animationTime infinite linear;
+        @include cell($orange);
+      }
+      .right-three {
+        @include cell($green);
+      }
+    }
+  }
+  .bottom-row {
+    top: 8em;
+    .left {
+      .left-one {
+        @include cell($white);
+      }
+      .left-two {
+        @include cell($blue);
+      }
+      .left-three {
+        @include cell($yellow);
+      }
+    }
+    .right {
+      .right-one {
+        @include cell($yellow);
+      }
+      .right-two {
+        @include cell($red);
+      }
+      .right-three {
+        @include cell($green);
+      }
+    }
+  }
+  .row-face {
+    position: absolute;
+    display: block;
+    width: 12em;
+    height: 4em;
+    top: 0;
+    :nth-child(1) {
+      left: 0em;
+      top: 50%;
+      margin-top: -1.75em;
+      margin-left: 0.25em;
+    }
+    :nth-child(2) {
+      left: 4em;
+      top: 50%;
+      margin-top: -1.75em;
+      margin-left: 0.25em;
+    }
+    :nth-child(3) {
+      left: 8em;
+      top: 50%;
+      margin-top: -1.75em;
+      margin-left: 0.25em;
+    }
+    &.front {
+      transform: translateZ(6em);
+    }
+    &.left {
+      transform: rotateY(-90deg) translateZ(6em);
+    }
+    &.back {
+      transform: rotateY(-180deg) translateZ(6em);
+    }
+    &.right {
+      transform: rotateY(90deg) translateZ(6em);
+    }
+  }
+  .left-column,
+  .middle-column,
+  .right-column {
+    position: absolute;
+    width: 4em;
+    height: 12em;
+    top: 0;
+    transform-style: preserve-3d;
+  }
+  .left-column {
+    left: 0;
+    .front {
+      .front-three {
+        @include cell($green);
+      }
+    }
+    .back {
+      .back-one {
+        @include cell($yellow);
+      }
+    }
+    .bottom {
+      .bottom-one {
+        @include cell($red);
+      }
+      .bottom-two {
+        @include cell($yellow);
+      }
+      .bottom-three {
+        @include cell($green);
+      }
+    }
+  }
+  .middle-column {
+    left: 4em;
+    animation: spinMiddleColumn $animationTime infinite linear;
+    .front {
+      animation: makeOpaque2 $animationTime infinite linear;
+      .front-one {
+        animation: makeOpaque1 $animationTime infinite linear;
+        @include cell($white);
+      }
+      .front-two {
+        animation: makeOpaque6 $animationTime infinite linear;
+        @include cell($blue);
+      }
+      .front-three {
+        @include cell($green);
+      }
+    }
+    .top {
+      animation: makeOpaque1 $animationTime infinite linear;
+      .top-one {
+        @include cell($white);
+      }
+      .top-two {
+        animation: makeOpaque5 $animationTime infinite linear;
+        @include cell($blue);
+      }
+      .top-three {
+        animation: makeOpaque2 $animationTime infinite linear;
+        @include cell($green);
+      }
+    }
+    .back {
+      .back-one {
+        @include cell($orange);
+      }
+      .back-two {
+        animation: makeOpaque6 $animationTime infinite linear;
+        @include cell($orange);
+      }
+      .back-three {
+        animation: makeOpaque1 $animationTime infinite linear;
+        @include cell($blue);
+      }
+    }
+    .bottom {
+      .bottom-one {
+        animation: makeOpaque2 $animationTime infinite linear;
+        @include cell($white);
+      }
+      .bottom-two {
+        animation: makeOpaque5 $animationTime infinite linear;
+        @include cell($blue);
+      }
+      .bottom-three {
+        @include cell($green);
+      }
+    }
+  }
+  .right-column {
+    left: 8em;
+    .front {
+      .front-three {
+        @include cell($blue);
+      }
+    }
+    .back {
+      .back-one {
+        @include cell($yellow);
+      }
+    }
+    .bottom {
+      .bottom-one {
+        @include cell($white);
+      }
+      .bottom-two {
+        @include cell($red);
+      }
+      .bottom-three {
+        @include cell($red);
+      }
+    }
+  }
+  .column-face {
+    position: absolute;
+    display: block;
+    width: 4em;
+    height: 12em;
+    left: 0;
+    :nth-child(1) {
+      top: 0em;
+      left: 50%;
+      margin-left: -1.75em;
+      margin-top: 0.25em;
+    }
+    :nth-child(2) {
+      top: 4em;
+      left: 50%;
+      margin-left: -1.75em;
+      margin-top: 0.25em;
+    }
+    :nth-child(3) {
+      top: 8em;
+      left: 50%;
+      margin-left: -1.75em;
+      margin-top: 0.25em;
+    }
+    &.front {
+      transform: translateZ(6em);
+    }
+    &.top {
+      transform: rotateX(90deg) translateZ(6em);
+    }
+    &.back {
+      transform: rotateX(180deg) translateZ(6em);
+    }
+    &.bottom {
+      transform: rotateX(-90deg) translateZ(6em);
+    }
+  }
+}
+
+#kesava-magic {
+  position: fixed;
+  left: 0;
+  top: 100px;
+  display: none;
+  #kesava-text {
+    font-size: 36px;
+    width: 600px;
+    color: #f32b2b;
+  }
+}
+
+#kesava:hover ~ #kesava-magic {
+  animation: left-scrolling-text 7s linear infinite;
+  display: block;
 }
