@@ -3,6 +3,7 @@ import "./styles/main.scss";
 import { data } from "./data";
 import { css } from "@emotion/core";
 import images from "./img/*.*";
+import dhruvikvideo from "./video/dhruvik.mp4";
 import PersonHover from "./PersonHover";
 import Stick from "./Stick";
 import TaylorComponent from "./styles/TaylorComponent";
@@ -11,6 +12,7 @@ const App = () => {
   const [activePerson, setActivePerson] = useState("");
   const [steves, setSteves] = useState([]);
   const [overlayStyles, setOverlayStyles] = useState("");
+  const [drupey, setDrupey] = useState(null);
 
   const [timeoutIDs, setTimeoutIDs] = useState([]);
   const onPersonHover = (name) => {
@@ -40,8 +42,27 @@ const App = () => {
       );
     } else if (activePerson === "harshu") {
       setOverlayStyles(`background-image: url(${getImagePath("covid")})`);
+    } else if (activePerson === "dhruvik") {
+      setOverlayStyles(`background-image: url(${getImagePath("drupey")})`);
     } else {
       setOverlayStyles("");
+    }
+  }, [activePerson]);
+
+  // just for dhruvik
+  useEffect(() => {
+    if (activePerson === "dhruvik") {
+      setDrupey(
+        <div id="dhruvik-swag" className="noHover">
+          {/* eslint-disable-next-line jsx-a11y/media-has-caption */}
+          <video width="852" height="480" autoPlay="autoplay">
+            <source src={dhruvikvideo} type="video/mp4" />
+            Your browser does not support the video tag.
+          </video>
+        </div>
+      );
+    } else {
+      setDrupey(null);
     }
   }, [activePerson]);
 
@@ -107,7 +128,7 @@ const App = () => {
         );
       case "marley":
         return (
-          <div class="box">
+          <div className="box">
             <b></b>
             <b></b>
             <b></b>
@@ -194,6 +215,8 @@ const App = () => {
         );
       case "dmitri":
         return <Stick />;
+      case "dhruvik":
+        return drupey;
       default:
         return null;
     }
@@ -276,14 +299,14 @@ const App = () => {
                           href={`https://github.com/${info.github}`}
                           target="_blank"
                         >
-                          <i class="fab fa-github"></i>
+                          <i className="fab fa-github"></i>
                         </a>
                       </li>
                     )}
                     {info.website && (
                       <li>
                         <a href={`https://${info.website}`} target="_blank">
-                          <i class="fas fa-link"></i>
+                          <i className="fas fa-link"></i>
                         </a>
                       </li>
                     )}
@@ -293,7 +316,7 @@ const App = () => {
                           href={`https://twitter.com/${info.twitter}`}
                           target="_blank"
                         >
-                          <i class="fab fa-twitter"></i>
+                          <i className="fab fa-twitter"></i>
                         </a>
                       </li>
                     )}
