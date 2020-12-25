@@ -56,7 +56,9 @@ const App = () => {
       );
     } else if (activePerson === "athena") {
       setOverlayStyles(`background-image: url(${getImagePath("pineapple_athena")})`)
-    }else {
+    } else if (activePerson === "azlen") {
+      setOverlayStyles(`background-image: url(${getImagePath("garlic_bread_azlen")})`)
+    } else {
       setOverlayStyles("");
     }
   }, [activePerson]);
