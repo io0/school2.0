@@ -169,7 +169,7 @@ const App = () => {
               <div
                 css={css`
                   position: fixed;
-                  left: ${el.n * 50}px;
+                  left: ${el.n * 55}px;
                   transform: rotate(${el.n * 15}deg);
                   top: 100px;
                   width: 100px;
