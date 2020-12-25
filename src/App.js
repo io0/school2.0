@@ -58,6 +58,8 @@ const App = () => {
       setOverlayStyles(`background-image: url(${getImagePath("pineapple_athena")})`)
     } else if (activePerson === "azlen") {
       setOverlayStyles(`background-image: url(${getImagePath("garlic_bread_azlen")})`)
+    } else if (activePerson === "amanda") {
+      setOverlayStyles(`background-image: url(${getImagePath("keyboard_amanda")})`)
     } else {
       setOverlayStyles("");
     }
