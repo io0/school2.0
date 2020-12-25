@@ -5,7 +5,8 @@ export const data = {
     website: "www.amandango.me/",
     twitter: "",
     github: "",
-    description: "hypnosis??",
+    description:
+      "Amanda is a Kiwi living in the United States. She works at Ought, a startup building tools to automate complex reasoning",
   },
   athena: {
     name: "Athena Leong",
@@ -14,7 +15,7 @@ export const data = {
     twitter: "athleong",
     github: "athenaleong",
     description:
-      "A concrete way to do it in a while back in the middle of nowhere so its not a great bound but maybe some adjustments can be made to makesure to keep up with the latest trends.",
+      "Athena is a CS student at UC Berkeley who loves tinkering with crazy ideas",
   },
   azlen: {
     name: "Azlen Elza",
@@ -22,8 +23,7 @@ export const data = {
     website: "azlen.me/",
     github: "azlen",
     twitter: "azlenelza",
-    description:
-      "I have been mailed out the check and will send you a copy in a while to send the signed documents in to the dumpster office on Monday and we can also send the signed documents in to the dumpster..",
+    description: "Azlen is a designer with a penchant for garlic bread",
   },
   bonnie: {
     name: "Bonnie Li",
@@ -31,7 +31,8 @@ export const data = {
     website: "bonniesjli.github.io/",
     github: "bonniesjli",
     twitter: "bonniesjli",
-    description: "B-B-B-B-B-B-B-B-B-B-B-B-BONNIE",
+    description:
+      "Bonnie is a prodigial teen with nearly a decade of deep learning and RL research under her belt",
   },
   chris: {
     name: "Chris Axon",
@@ -39,8 +40,7 @@ export const data = {
     website: "",
     github: "caxon",
     twitter: "caxon_",
-    description:
-      "He has a version of his own and the other one that I have been using it to make a great deal for me to be sensitive and to make things happen to you before you go to sleep in a perfect mood..",
+    description: "Chris runs very fast and is interested in too many things",
   },
   david: {
     name: "David Holz",
@@ -48,7 +48,7 @@ export const data = {
     twitter: "DavidSHolz",
     website: "davidsholz.com",
     description:
-      "Leetmotion is a great writer for a year and I think he would be great to have in his future as a result in the middle and he has no idea of how he will react if he has not heard of it.",
+      "David co-founded Leap Motion and is working on sending people to space",
   },
   dhruvik: {
     name: "Dhruvik Parikh",
@@ -57,7 +57,7 @@ export const data = {
     website: "dhruvikparikh.com",
     github: "dhruvik7",
     description:
-      "I was like you underlined all the way to the dumpster for at least a few days so I can get me in the middle of nowhere so its not a problem.",
+      "Dhruvik found early fame winning ISEF and is the second favorite Indian at the house",
   },
   dmitri: {
     name: "Dmitri Brereton",
@@ -65,13 +65,14 @@ export const data = {
     twitter: "dkb868",
     github: "dkb868",
     description:
-      "The other ppl have a great time and a great time for you guys to see the kids to be able and see if you have strong though I'm not going down to your place to be O with you guys.",
+      "Dmitri is possibly the most ambitious engineer from his home island of Trinidad",
   },
   emma: {
     name: "Emma Qian",
     image: "emma.png",
     github: "",
-    description: "add me on snapchat!",
+    description:
+      "Emma is a freshly minted DeepMind alumnus with a newfound interest in startups",
   },
   ethan: {
     name: "Ethan Perez",
@@ -79,14 +80,14 @@ export const data = {
     github: "ethanjperez",
     website: "ethanperez.net/",
     description:
-      "Nothing too complicated activity partners if you think we have something in common easy-going. Long-term dating Netflix fixing my scooter beach days trying this for the first time, glass half-full what to order off of the menu no drama playing my guitar bored at home.",
+      "Ethan works on extending human intelligence by training machines to answer questions",
   },
   felipe: {
     name: "Felipe Calero Forero",
     image: "felipe.jpeg",
     twitter: "CaleroForero",
     description:
-      "Nothing too complicated activity partners if you think we have something in common easy-going. Long-term dating Netflix fixing my scooter beach days trying this for the first time, glass half-full what to order off of the menu no drama playing my guitar bored at home.",
+      "Felipe started Effective Altruism at Stanford and brought it to New Mexico",
   },
   geffen: {
     name: "Geffen Avraham",
@@ -94,14 +95,14 @@ export const data = {
     twitter: "geffenavraham",
     github: "",
     website: "",
-    description: "GAFFEN",
+    description: "Geffen sent satellites into space and cooks great chicken",
   },
   harshu: {
     name: "Harshu Musunuri",
     image: "harshu.jpeg",
     twitter: "HarshuMusunuri",
     description:
-      "Nothing too complicated activity partners if you think we have something in common easy-going. Long-term dating Netflix fixing my scooter beach days trying this for the first time, glass half-full what to order off of the menu no drama playing my guitar bored at home.",
+      "Harshu works on protein modelling and explains COVID developments to the rest of the house",
   },
   jonathan: {
     name: "Jonathan Xu",
@@ -109,8 +110,7 @@ export const data = {
     twitter: "_JonathanXu",
     website: "jonathanxu.com",
     github: "JonathanXu1",
-    description:
-      "Nothing too complicated activity partners if you think we have something in common easy-going. Long-term dating Netflix fixing my scooter beach days trying this for the first time, glass half-full what to order off of the menu no drama playing my guitar bored at home.",
+    description: "Jonathan is an avid hacker and house mom",
     backgroundColor: "#00f",
   },
   kesava: {
@@ -118,7 +118,7 @@ export const data = {
     image: "kesava.jpeg",
     twitter: "kesava_kirupa",
     description:
-      "Nothing too complicated activity partners if you think we have something in common easy-going. Long-term dating Netflix fixing my scooter beach days trying this for the first time, glass half-full what to order off of the menu no drama playing my guitar bored at home.",
+      "Kesava is building Digital Brain and sometimes shows off his Rubik's cube abilities",
   },
   liam: {
     name: "Liam Hinzman",
@@ -127,7 +127,7 @@ export const data = {
     website: "liamhinzman.com",
     github: "LiamHz",
     description:
-      "Nothing too complicated activity partners if you think we have something in common easy-going. Long-term dating Netflix fixing my scooter beach days trying this for the first time, glass half-full what to order off of the menu no drama playing my guitar bored at home.",
+      "Liam recently dropped out of school and is working on new-age things at Numerai",
     backgroundColor: "#6DD6DA",
   },
   marley: {
@@ -143,7 +143,7 @@ export const data = {
     twitter: "MatthewWSiu",
     github: "Siunami",
     description:
-      "Nothing too complicated activity partners if you think we have something in common easy-going. Long-term dating Netflix fixing my scooter beach days trying this for the first time, glass half-full what to order off of the menu no drama playing my guitar bored at home.",
+      "Matthew makes creative tools for collaboration and draws maps all day",
   },
   noah: {
     name: "Noah Trenaman",
@@ -152,7 +152,7 @@ export const data = {
     github: "noahtren",
     website: "noahtren.com/",
     description:
-      "Nothing too complicated activity partners if you think we have something in common easy-going. Long-term dating Netflix fixing my scooter beach days trying this for the first time, glass half-full what to order off of the menu no drama playing my guitar bored at home.",
+      "Noah is a human machine who teaches machines to be like humans",
   },
   raffi: {
     name: "Raffi Hotter",
@@ -160,14 +160,14 @@ export const data = {
     twitter: "raffi_hotter",
     github: "rhotter",
     description:
-      "Nothing too complicated activity partners if you think we have something in common easy-going. Long-term dating Netflix fixing my scooter beach days trying this for the first time, glass half-full what to order off of the menu no drama playing my guitar bored at home.",
+      "Raffi uses his brain a lot and is making a portable brain scanner",
   },
   santi: {
     name: "Santi Aranguri",
     image: "santi.jpeg",
     github: "Aranguri",
     description:
-      "Nothing too complicated activity partners if you think we have something in common easy-going. Long-term dating Netflix fixing my scooter beach days trying this for the first time, glass half-full what to order off of the menu no drama playing my guitar bored at home.",
+      "Santi can often be found running to a whiteboard so that he can draw mathematical objects. He will design AGI eventually",
   },
   steve: {
     name: "Stephen Fay",
@@ -175,16 +175,14 @@ export const data = {
     twitter: "dcxStep",
     github: "dcxst",
     website: "dcxst.github.io/",
-    description:
-      "Nothing too complicated activity partners if you think we have something in common easy-going. Long-term dating Netflix fixing my scooter beach days trying this for the first time, glass half-full what to order off of the menu no drama playing my guitar bored at home.",
+    description: "Steve speaks in physics and hasn't figured out his life yet",
   },
   taylor: {
     name: "Taylor Rogalski",
     image: "taylor.png",
     twitter: "tayroga",
     website: "tay.ro/",
-    description:
-      "Nothing too complicated activity partners if you think we have something in common easy-going. Long-term dating Netflix fixing my scooter beach days trying this for the first time, glass half-full what to order off of the menu no drama playing my guitar bored at home.",
+    description: "Taylor has designed multiple intelligent systems",
   },
   tiago: {
     name: "Tiago Sada",
@@ -192,13 +190,14 @@ export const data = {
     twitter: "tiagosada",
     website: "www.tiagosada.com/",
     description:
-      "Nothing too complicated activity partners if you think we have something in common easy-going. Long-term dating Netflix fixing my scooter beach days trying this for the first time, glass half-full what to order off of the menu no drama playing my guitar bored at home.",
+      "Tiago sold his first company and is on sabbatical, doing stand-up comedy for the house",
   },
   vincent: {
     name: "Vincent Huang",
     image: "vincent.jpg",
     twitter: "vvhuang_",
-    description: "",
+    description:
+      "Vincent is an IMO champion who sits in the snack room and eavesdrops on conversations",
     github: "vincenthuang75025",
     website: "vvhuang.com/",
     backgroundColor: "#000",
@@ -209,7 +208,7 @@ export const data = {
     image: "william.jpeg",
     github: "willbryk720",
     description:
-      "Nothing too complicated activity partners if you think we have something in common easy-going. Long-term dating Netflix fixing my scooter beach days trying this for the first time, glass half-full what to order off of the menu no drama playing my guitar bored at home.",
+      "William spends his free time writing 10,000-word blogs and singing opera",
   },
   nala: {
     name: "Nala",
