@@ -35,6 +35,8 @@ const App = () => {
       setOverlayStyles(`background-image: url(${getImagePath("swiss_miss")})`);
     } else if (activePerson === "geffen") {
       setOverlayStyles(`background-image: url(${getImagePath("galaxy")})`);
+    } else if (activePerson === "bonnie") {
+      setOverlayStyles(`background-image: url(${getImagePath("bonniebkgd")}); background-size: 531px 334px`);
     } else if (activePerson === "santi") {
       setOverlayStyles(`background-image: url(${getImagePath("onion")})`);
     } else if (activePerson === "harshu") {
