@@ -37,10 +37,6 @@ const App = () => {
       setOverlayStyles(`background-image: url(${getImagePath("galaxy")})`);
     } else if (activePerson === "santi") {
       setOverlayStyles(`background-image: url(${getImagePath("onion")})`);
-    } else if (activePerson === "felipe") {
-      setOverlayStyles(
-        `background-image: url(https://lh3.googleusercontent.com/proxy/LVCs9Cy8_X4aSS-_4HV-Ny4fTNZY5djRZEiCxDJDDMuntV2X9DMcWWb7O-HJZGzEIur-KIuaCUneIj0TVsNcUHTaZPBBRNihSw)`
-      );
     } else if (activePerson === "harshu") {
       setOverlayStyles(`background-image: url(${getImagePath("covid")})`);
     } else if (activePerson === "dhruvik") {
@@ -62,6 +58,10 @@ const App = () => {
       setOverlayStyles(`background-image: url(${getImagePath("keyboard_amanda")})`)
     } else if (activePerson === "marley") {
       setOverlayStyles(`background-image: url(${getImagePath("laoganma")})`)
+    } else if (activePerson === "ethan") {
+      setOverlayStyles(`background-image: url(${getImagePath("keyboard_ethan")})`)
+    } else if (activePerson === "felipe") {
+      setOverlayStyles(`background-image: url(${getImagePath("salsa2")})`)
     } else {
       setOverlayStyles("");
     }
@@ -199,7 +199,7 @@ const App = () => {
           <div id="vincent-hey" className="noHover">
             Hi! I'm Felipe, your local handsome effective altruist. So, let me
             get started by telling you about longtermism, and why we need to
-            start having more babies.
+            start having more babies. Also, I can salsa like a boss!
           </div>
         );
       case "william":
