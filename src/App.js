@@ -36,7 +36,11 @@ const App = () => {
     } else if (activePerson === "geffen") {
       setOverlayStyles(`background-image: url(${getImagePath("galaxy")})`);
     } else if (activePerson === "bonnie") {
-      setOverlayStyles(`background-image: url(${getImagePath("bonniebkgd")}); background-size: 531px 334px`);
+      setOverlayStyles(
+        `background-image: url(${getImagePath(
+          "bonniebkgd"
+        )}); background-size: 531px 334px`
+      );
     } else if (activePerson === "santi") {
       setOverlayStyles(`background-image: url(${getImagePath("onion")})`);
     } else if (activePerson === "harshu") {
@@ -46,24 +50,29 @@ const App = () => {
     } else if (activePerson === "david") {
       setOverlayStyles(
         `background-image: linear-gradient(135deg, rgb(42, 60, 173), rgb(59, 153, 199));
-        font-family: "Croissant One";`
-      );
-    } else if (activePerson === "chris") {
-      setOverlayStyles(
-        `background-image: url(${getImagePath("debtcollector")})`
+        font-family: "Croissant One";
+        font-size: 14px;`
       );
     } else if (activePerson === "athena") {
-      setOverlayStyles(`background-image: url(${getImagePath("pineapple_athena")})`)
+      setOverlayStyles(
+        `background-image: url(${getImagePath("pineapple_athena")})`
+      );
     } else if (activePerson === "azlen") {
-      setOverlayStyles(`background-image: url(${getImagePath("garlic_bread_azlen")})`)
+      setOverlayStyles(
+        `background-image: url(${getImagePath("garlic_bread_azlen")})`
+      );
     } else if (activePerson === "amanda") {
-      setOverlayStyles(`background-image: url(${getImagePath("keyboard_amanda")})`)
+      setOverlayStyles(
+        `background-image: url(${getImagePath("keyboard_amanda")})`
+      );
     } else if (activePerson === "marley") {
-      setOverlayStyles(`background-image: url(${getImagePath("laoganma")})`)
+      setOverlayStyles(`background-image: url(${getImagePath("laoganma")})`);
     } else if (activePerson === "ethan") {
-      setOverlayStyles(`background-image: url(${getImagePath("keyboard_ethan")})`)
+      setOverlayStyles(
+        `background-image: url(${getImagePath("keyboard_ethan")})`
+      );
     } else if (activePerson === "felipe") {
-      setOverlayStyles(`background-image: url(${getImagePath("salsa2")})`)
+      setOverlayStyles(`background-image: url(${getImagePath("salsa2")})`);
     } else {
       setOverlayStyles("");
     }
@@ -241,7 +250,11 @@ const App = () => {
       case "dmitri":
         return <Stick />;
       case "emma":
-        return <div id="emma-text" className="noHover">Who let the dogs out??<div class="dog"></div></div>;
+        return (
+          <div id="emma-text" className="noHover">
+            Who let the dogs out??<div class="dog"></div>
+          </div>
+        );
       case "dhruvik":
         return drupey;
       case "chris":
@@ -286,21 +299,24 @@ const App = () => {
           ${overlayStyles}
         `}
       >
+        <h1
+          css={css`
+            text-align: center;
+            font-size: 32px;
+            padding: 20px 0;
+            position: fixed;
+            width: 100%;
+            background-color: ${activePerson ? "transparent" : "#f1f1f1"};
+          `}
+        >
+          {data[activePerson]?.name || `School 2.0 Yearbook`}
+        </h1>
         <div
           css={css`
             max-width: 1000px;
             margin: 0 auto;
           `}
         >
-          <h1
-            css={css`
-              text-align: center;
-              font-size: 48px;
-              padding: 25px 0;
-            `}
-          >
-            {activePerson || `School 2.0 Yearbook`}
-          </h1>
           <div className="grid-container">
             {Object.entries(data).map(([name, info]) => {
               // console.log("./img/" + info.image);

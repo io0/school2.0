@@ -1,7 +1,10 @@
 .grid-container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-column-gap: 25px;
+  grid-column-gap: 20px;
+  width: 74%;
+  margin-left: 13%;
+  padding-top: 66px;
 }
 
 @import url("https://fonts.googleapis.com/css2?family=Croissant+One&display=swap");
@@ -30,15 +33,15 @@
     display: block;
     margin: 0 auto;
     border-radius: 5px;
+    &:hover {
+      // background-color: #dddddd;
+      cursor: pointer;
+    }
   }
 
   p,
   img {
     width: 80%;
-  }
-  &:hover {
-    // background-color: #dddddd;
-    cursor: pointer;
   }
 }
 
@@ -50,6 +53,14 @@
   display: inline-block;
   border-right: 2px solid #bbb;
   padding: 0 5px;
+  &:last-child {
+    border-right: none;
+  }
+  &:hover {
+    i {
+      color: #1da1f2;
+    }
+  }
 }
 
 // Jonathan
