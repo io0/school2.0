@@ -238,6 +238,8 @@ const App = () => {
         );
       case "dmitri":
         return <Stick />;
+      case "emma":
+        return <div id="emma-text" className="noHover">Who let the dogs out??<div class="dog"></div></div>;
       case "dhruvik":
         return drupey;
       case "chris":
