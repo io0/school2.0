@@ -1113,3 +1113,40 @@ $white: #ffffff;
   animation: left-scrolling-text 7s linear infinite;
   display: block;
 }
+
+#chris-decoration {
+  display: none;
+  position: fixed;
+  width: 300px;
+}
+
+#chris:hover ~ #chris-decoration {
+  animation: chris 1s linear infinite;
+  display: block;
+}
+
+@keyframes chris {
+  0% {
+    top: 0;
+    right: 0;
+  }
+
+  20% {
+    top: 0;
+    right: 60%;
+  }
+
+  40% {
+    top: 100%;
+    right: 60%;
+  }
+  60% {
+    top: 100%;
+    right: 0;
+  }
+
+  100% {
+    top: 0;
+    right: 0;
+  }
+}

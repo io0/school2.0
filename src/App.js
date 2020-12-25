@@ -50,6 +50,10 @@ const App = () => {
         `background-image: linear-gradient(135deg, rgb(42, 60, 173), rgb(59, 153, 199));
         font-family: "Croissant One";`
       );
+    } else if (activePerson === "chris") {
+      setOverlayStyles(
+        `background-image: url(${getImagePath("debtcollector")})`
+      );
     } else {
       setOverlayStyles("");
     }
@@ -228,6 +232,12 @@ const App = () => {
         return <Stick />;
       case "dhruvik":
         return drupey;
+      case "chris":
+        return (
+          <div id="chris-decoration">
+            <img src={getImagePath("chris")} alt="" />
+          </div>
+        );
       default:
         return null;
     }
