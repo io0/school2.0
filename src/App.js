@@ -54,7 +54,9 @@ const App = () => {
       setOverlayStyles(
         `background-image: url(${getImagePath("debtcollector")})`
       );
-    } else {
+    } else if (activePerson === "athena") {
+      setOverlayStyles(`background-image: url(${getImagePath("pineapple_athena")})`)
+    }else {
       setOverlayStyles("");
     }
   }, [activePerson]);
