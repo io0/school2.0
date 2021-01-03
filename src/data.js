@@ -131,7 +131,7 @@ export const data = {
     website: "liamhinzman.com",
     github: "LiamHz",
     description:
-      "Liam is an eighteen-year-old who does machine learning, full-stack, and computer graphics. He recently dropped out of school and worked at Reduct Video, and is currently building collective machine intelligence at Numerai",
+      "Liam is an eighteen-year-old who does machine learning, full-stack, and computer graphics. He recently dropped out of school and worked at Reduct Video, and is currently building collective machine intelligence at Numerai.",
     backgroundColor: "#6DD6DA",
   },
   marley: {
@@ -181,7 +181,7 @@ export const data = {
     github: "dcxst",
     website: "dcxst.github.io/",
     description:
-      "Steve is currently pursuing an undergraduate degree in Mathematics and Physics at McGill University. He enjoys reading, biking, walking, talking, sleeping, problem-solving, coding. He grew up in Brussels (Belgium) and was a member of the souts et guides pluralistes throughout childhood (and briefly a scout-leader) before moving to Canada. His favourite color is blue and his favourite quote is 'that that is is, for what is that but that and is but is'",
+      "Steve is currently pursuing an undergraduate degree in Mathematics and Physics at McGill University. He enjoys reading, biking, walking, talking, sleeping, problem-solving, coding. He grew up in Brussels (Belgium) and was a member of the souts et guides pluralistes throughout childhood (and briefly a scout-leader) before moving to Canada. His favourite color is blue and his favourite quote is 'that that is is, for what is that but that and is but is.",
   },
   taylor: {
     name: "Taylor Rogalski",
@@ -204,7 +204,7 @@ export const data = {
     image: "vincent.jpg",
     twitter: "vvhuang_",
     description:
-      "Vincent is an IMO champion who sits in the snack room and eavesdrops on conversations",
+      "Vincent is a sophomore at MIT interested in exploring math, cs, biology, and snacks. In the past, Vincent worked on models for refugee crises, participated in math olympiads, and wrote software at Amazon. When tired, he likes watching movies, opening messenger rooms, and journaling.",
     github: "vincenthuang75025",
     website: "vvhuang.com/",
     backgroundColor: "#000",
@@ -223,6 +223,6 @@ export const data = {
     image: "nala.jpg",
     github: "willbryk720",
     description:
-      "Nala doesn't bark, but if she did she would probably say 'woof, woof, woof woof'",
+      "Nala doesn't bark, but if she did she would probably say \"woof, woof, woof woof\"",
   },
 };
