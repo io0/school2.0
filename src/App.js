@@ -306,9 +306,10 @@ const App = () => {
             padding: 20px 0;
             position: fixed;
             width: 100%;
-            background-color: ${activePerson
-              ? "transparent"
-              : "rgb(250,250,250)"};
+            ${overlayStyles && `color: white;`};
+            background-color: ${data?.[activePerson]?.backgroundColor ||
+            (overlayStyles && "transparent") ||
+            "rgb(250,250,250)"};
           `}
         >
           {data[activePerson]?.name || `School 2.0 Bio Page`}
