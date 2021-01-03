@@ -259,7 +259,7 @@ const App = () => {
         return drupey;
       case "chris":
         return (
-          <div id="chris-decoration">
+          <div id="chris-decoration" className="noHover">
             <img src={getImagePath("chris")} alt="" />
           </div>
         );
@@ -290,7 +290,7 @@ const App = () => {
       css={css`
         font-family: "Nunito", Helvetica, sans-serif;
         background-color: ${data?.[activePerson]?.backgroundColor ||
-        "rgb(241, 241, 241)"};
+        "rgb(250,250,250)"};
       `}
     >
       <div
@@ -306,10 +306,12 @@ const App = () => {
             padding: 20px 0;
             position: fixed;
             width: 100%;
-            background-color: ${activePerson ? "transparent" : "#f1f1f1"};
+            background-color: ${activePerson
+              ? "transparent"
+              : "rgb(250,250,250)"};
           `}
         >
-          {data[activePerson]?.name || `School 2.0 Yearbook`}
+          {data[activePerson]?.name || `School 2.0 Bio Page`}
         </h1>
         <div
           css={css`
@@ -370,7 +372,14 @@ const App = () => {
                       </li>
                     )}
                   </ul>
-                  <p>{info.description}</p>
+                  <p>
+                    <span style={{ color: "black" }}>
+                      {info.description.split(".")[0]}.
+                    </span>
+                    <span>
+                      {info.description.split(".").slice(1).join(".")}
+                    </span>
+                  </p>
                 </div>
               );
             })}

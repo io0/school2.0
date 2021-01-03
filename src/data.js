@@ -1,22 +1,22 @@
 export const data = {
-  amanda: {
-    name: "Amanda Ngo",
-    image: "amanda.png",
-    website: "www.amandango.me/",
-    twitter: "",
-    github: "",
-    description:
-      "Amanda is a Kiwi living in the United States. She works at Ought, a startup building tools to automate complex reasoning",
-  },
-  athena: {
-    name: "Athena Leong",
-    image: "athena.jpeg",
-    website: "athenaleong.tech/",
-    twitter: "athleong",
-    github: "athenaleong",
-    description:
-      "Athena is a CS student at UC Berkeley who loves tinkering with crazy ideas",
-  },
+  // amanda: {
+  //   name: "Amanda Ngo",
+  //   image: "amanda.png",
+  //   website: "www.amandango.me/",
+  //   twitter: "",
+  //   github: "",
+  //   description:
+  //     "Amanda is a Kiwi living in the United States. She works at Ought, a startup building tools to automate complex reasoning",
+  // },
+  // athena: {
+  //   name: "Athena Leong",
+  //   image: "athena.jpeg",
+  //   website: "athenaleong.tech/",
+  //   twitter: "athleong",
+  //   github: "athenaleong",
+  //   description:
+  //     "Athena is a CS student at UC Berkeley who loves tinkering with crazy ideas",
+  // },
   azlen: {
     name: "Azlen Elza",
     image: "azlen.png",
@@ -33,7 +33,7 @@ export const data = {
     github: "bonniesjli",
     twitter: "bonniesjli",
     description:
-      "Bonnie is an AI researcher in training, working towards a more generalized notion of artificial intelligence. She is an undergrad at McGill University studying Mathematics and Computer Science, working on reinforcement learning with Joelle Pineau. She is interested in reinforcement learning, meta learning, and latent space modeling. In the past she worked on reinforcement learning at Mila in Yoshua Bengio's group, then imitation learning at Vector Institute in Jimmy Ba's group.",
+      "Bonnie is a teen AI research prodigy. She is working towards a more generalized notion of artificial intelligence. She is an undergrad at McGill University studying Mathematics and Computer Science, working on reinforcement learning with Joelle Pineau. She is interested in reinforcement learning, meta learning, and latent space modeling. In the past she worked on reinforcement learning at Mila in Yoshua Bengio's group, then imitation learning at Vector Institute in Jimmy Ba's group.",
   },
   chris: {
     name: "Chris Axon",
@@ -69,42 +69,43 @@ export const data = {
     description:
       "Dmitri is possibly the most ambitious engineer from his home island of Trinidad. He studied at UCLA, where he built dating apps that are better than Tinder, and he more recently built a poker website and started work at Gem. He wants to find and search through all the blogs of the Internet.",
   },
-  emma: {
-    name: "Emma Qian",
-    image: "emma.png",
-    github: "",
-    description:
-      "Emma is a freshly minted DeepMind alumnus with a newfound interest in startups",
-  },
+  // emma: {
+  //   name: "Emma Qian",
+  //   image: "emma.png",
+  //   github: "",
+  //   description:
+  //     "Emma is a freshly minted DeepMind alumnus with a newfound interest in startups",
+  // },
   ethan: {
     name: "Ethan Perez",
     image: "ethan.jpeg",
     github: "ethanjperez",
     website: "ethanperez.net/",
     description:
-      "Ethan is a Ph.D. student in Natural Language Processing at New York University. He is advised by Kyunghyun Cho and Douwe Kiela and funded by NSF and Open Philanthropy. His research focuses on developing learning algorithms that have the long-term potential to answer questions that people cannot. Supervised learning cannot answer such questions, even in principle, so he is investigating other learning paradigms for generalizing beyond the available supervision. Previously, he worked with Aaron Courville and Hugo Larochelle at the Montreal Institute for Learning Algorithms, and he has also spent time at Facebook AI Research and Google. He earned a Bachelor’s from Rice University as the Engineering department’s Outstanding Senior.",
+      "Ethan is a PhD student in Natural Language Processing at New York University. He is advised by Kyunghyun Cho and Douwe Kiela and funded by NSF and Open Philanthropy. His research focuses on developing learning algorithms that have the long-term potential to answer questions that people cannot. Supervised learning cannot answer such questions, even in principle, so he is investigating other learning paradigms for generalizing beyond the available supervision. Previously, he worked with Aaron Courville and Hugo Larochelle at the Montreal Institute for Learning Algorithms, and he has also spent time at Facebook AI Research and Google. He earned a Bachelor’s from Rice University as the Engineering department’s Outstanding Senior.",
   },
-  felipe: {
-    name: "Felipe Calero Forero",
-    image: "felipe.jpeg",
-    twitter: "CaleroForero",
-    description:
-      "Felipe started Effective Altruism at Stanford and brought it to New Mexico",
-  },
+  // felipe: {
+  //   name: "Felipe Calero Forero",
+  //   image: "felipe.jpeg",
+  //   twitter: "CaleroForero",
+  //   description:
+  //     "Felipe started Effective Altruism at Stanford and brought it to New Mexico",
+  // },
   geffen: {
     name: "Geffen Avraham",
     image: "geffen.png",
     twitter: "geffenavraham",
     github: "",
     website: "",
-    description: "Geffen sent satellites into space and cooks great chicken",
+    description:
+      "Geffen sent satellites into space and cooks great chicken. Geffen designed a CubeSat mission to one of Saturn’s moons, leading him to become the only high-schooler invited to an academic space conference in China. At 16, he left school to pursue his passion for building satellites at a local laboratory. He’s also currently working on a program to tell where (on Earth) a satellite picture was taken.",
   },
   harshu: {
     name: "Harshu Musunuri",
     image: "harshu.jpeg",
     twitter: "HarshuMusunuri",
     description:
-      "Harshu studies chemical biology and computer science at Stanford. She does research on proteins and COVID at the Kim Lab. In her free time she is also a vaccine enthusiast and dancer.",
+      "Harshu works on projects to save lives. She has done research with NASA’s JPL, built a seizure detection app for epileptic patients and is now working on a project with the potential to save thousands of lives. She’s also a hacker at heart: when she lacked the formal lab tools to braze at high temperature, she used the exhaust vent of a ceramic kiln.",
   },
   jonathan: {
     name: "Jonathan Xu",
@@ -138,7 +139,8 @@ export const data = {
     image: "marley.jpeg",
     twitter: "_marleyx",
     github: "io0",
-    description: "Marley smarley barley tarley darley",
+    description:
+      "Marley smarley barley tarley darley. Marley earned a silver medal for Canada at the International Biology Olympiad, hitchhiked across Norway, built a brain-controlled wheelchair, worked on a neuroscience project at Google X, built a treehouse in the Amazon jungle, and unravelled the secrets to the human brain. Just kidding - the last two are not true (yet).",
   },
   matthew: {
     name: "Matthew Siu",
@@ -165,13 +167,13 @@ export const data = {
     description:
       "Raffi is on a quest to hacking the brain. He's a senior at McGill studying Math, Computer Science and Physics, and he is building a  $1000 portable brain scanner. Previously, he interned at Google X on a neuroscience project and represented Canada at ISEF, winning 2nd place in Physics. He's obsessed with hot chocolate.",
   },
-  santi: {
-    name: "Santi Aranguri",
-    image: "santi.jpeg",
-    github: "Aranguri",
-    description:
-      "Santi can often be found running to a whiteboard so that he can draw mathematical objects. He will design AGI eventually",
-  },
+  // santi: {
+  //   name: "Santi Aranguri",
+  //   image: "santi.jpeg",
+  //   github: "Aranguri",
+  //   description:
+  //     "Santi can often be found running to a whiteboard so that he can draw mathematical objects. He will design AGI eventually",
+  // },
   steve: {
     name: "Stephen Fay",
     image: "steve.jpeg",
