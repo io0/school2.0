@@ -82,7 +82,7 @@ export const data = {
     github: "ethanjperez",
     website: "ethanperez.net/",
     description:
-      "Ethan is a PhD student in Natural Language Processing at New York University. He is advised by Kyunghyun Cho and Douwe Kiela and funded by NSF and Open Philanthropy. His research focuses on developing learning algorithms that have the long-term potential to answer questions that people cannot. Supervised learning cannot answer such questions, even in principle, so he is investigating other learning paradigms for generalizing beyond the available supervision. Previously, he worked with Aaron Courville and Hugo Larochelle at the Montreal Institute for Learning Algorithms, and he has also spent time at Facebook AI Research and Google. He earned a Bachelor’s from Rice University as the Engineering department’s Outstanding Senior.",
+      "Ethan is a PhD student in Natural Language Processing at New York University. He is advised by Kyunghyun Cho and Douwe Kiela and funded by NSF and Open Philanthropy. His research focuses on developing learning algorithms that have the long-term potential to answer questions that people cannot. Previously, he worked with Aaron Courville and Hugo Larochelle at the Montreal Institute for Learning Algorithms, and he has also spent time at Facebook AI Research and Google.",
   },
   // felipe: {
   //   name: "Felipe Calero Forero",
@@ -165,7 +165,7 @@ export const data = {
     twitter: "raffi_hotter",
     github: "rhotter",
     description:
-      "Raffi is on a quest to hacking the brain. He's a senior at McGill studying Math, Computer Science and Physics, and he is building a  $1000 portable brain scanner. Previously, he interned at Google X on a neuroscience project and represented Canada at ISEF, winning 2nd place in Physics. He's obsessed with hot chocolate.",
+      "Raffi is on a quest to hack the brain. He's a senior at McGill studying Math, Computer Science and Physics, and he is building a  $1000 portable brain scanner. Previously, he interned at Google X on a neuroscience project and represented Canada at ISEF, winning 2nd place in Physics. He's obsessed with hot chocolate.",
   },
   // santi: {
   //   name: "Santi Aranguri",
