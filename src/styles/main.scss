@@ -2,12 +2,13 @@
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-column-gap: 20px;
-  width: 74%;
-  margin-left: 13%;
+  width: 90%;
+  margin-left: 5%;
   padding-top: 66px;
 }
 
 @import url("https://fonts.googleapis.com/css2?family=Croissant+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 
 .person {
   padding: 10px;
@@ -22,7 +23,8 @@
     padding: 0 10px;
     text-align: center;
     margin: 0 auto;
-    color: #aaa;
+    font: 12px verdana, sans-serif;
+    // color: #aaa;
   }
 
   a {
