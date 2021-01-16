@@ -28,6 +28,7 @@ export const data = {
   marley: {
     name: "Marley Xiong",
     image: "marley.jpeg",
+    website: "marleyx.com",
     twitter: "_marleyx",
     github: "io0",
     description:
