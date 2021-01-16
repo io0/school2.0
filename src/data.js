@@ -17,6 +17,31 @@ export const data = {
   //   description:
   //     "Athena is a CS student at UC Berkeley who loves tinkering with crazy ideas",
   // },
+  raffi: {
+    name: "Raffi Hotter",
+    image: "raffi.jpeg",
+    twitter: "raffi_hotter",
+    github: "rhotter",
+    description:
+      "Raffi is on a quest to hack the brain. He's a senior at McGill studying Math, Computer Science and Physics, and he is building a  $1000 portable brain scanner. Previously, he interned at Google X on a neuroscience project and represented Canada at ISEF, winning 2nd place in Physics. He's obsessed with hot chocolate.",
+  },
+  marley: {
+    name: "Marley Xiong",
+    image: "marley.jpeg",
+    twitter: "_marleyx",
+    github: "io0",
+    description:
+      "Marley smarley barley tarley darley. Marley earned a silver medal for Canada at the International Biology Olympiad, hitchhiked across Norway, built a brain-controlled wheelchair, worked on a neuroscience project at Google X, built a treehouse in the Amazon jungle, and unravelled the secrets to the human brain. Just kidding - the last two are not true (yet).",
+  },
+  chris: {
+    name: "Chris Axon",
+    image: "chris.jpeg",
+    website: "",
+    github: "caxon",
+    twitter: "caxon_",
+    description:
+      "Chris runs very fast and is interested in too many things. He likes learning and building and managing large amounts of money. He is currently engineering at Copysmith AI and wants to live somewhere other than Boston.",
+  },
   azlen: {
     name: "Azlen Elza",
     image: "azlen.png",
@@ -34,15 +59,6 @@ export const data = {
     twitter: "bonniesjli",
     description:
       "Bonnie is a teen AI research prodigy. She is working towards a more generalized notion of artificial intelligence. She is an undergrad at McGill University studying Mathematics and Computer Science, working on reinforcement learning with Joelle Pineau. She is interested in reinforcement learning, meta learning, and latent space modeling. In the past she worked on reinforcement learning at Mila in Yoshua Bengio's group, then imitation learning at Vector Institute in Jimmy Ba's group.",
-  },
-  chris: {
-    name: "Chris Axon",
-    image: "chris.jpeg",
-    website: "",
-    github: "caxon",
-    twitter: "caxon_",
-    description:
-      "Chris runs very fast and is interested in too many things. He likes learning and building and managing large amounts of money. He is currently engineering at Copysmith AI and wants to live somewhere other than Boston.",
   },
   david: {
     name: "David Holz",
@@ -84,13 +100,13 @@ export const data = {
     description:
       "Ethan is a PhD student in Natural Language Processing at New York University. He is advised by Kyunghyun Cho and Douwe Kiela and funded by NSF and Open Philanthropy. His research focuses on developing learning algorithms that have the long-term potential to answer questions that people cannot. Previously, he worked with Aaron Courville and Hugo Larochelle at the Montreal Institute for Learning Algorithms, and he has also spent time at Facebook AI Research and Google.",
   },
-  // felipe: {
-  //   name: "Felipe Calero Forero",
-  //   image: "felipe.jpeg",
-  //   twitter: "CaleroForero",
-  //   description:
-  //     "Felipe started Effective Altruism at Stanford and brought it to New Mexico",
-  // },
+  felipe: {
+    name: "Felipe Calero Forero",
+    image: "felipe.jpeg",
+    twitter: "CaleroForero",
+    description:
+      "Felipe started Effective Altruism at Stanford and brought it to New Mexico. Felipe is a 3rd year CS student at Stanford, where he helped build and run Stanford Effective Altruism and Stanford Existential Risks Initiative. He has previously worked on AI governance and biosecurity projects at the Open Philanthropy Project, and synthetic biology research at the Qi lab.",
+  },
   geffen: {
     name: "Geffen Avraham",
     image: "geffen.png",
@@ -134,14 +150,6 @@ export const data = {
       "Liam is an eighteen-year-old who does machine learning, full-stack, and computer graphics. He recently dropped out of school and worked at Reduct Video, and is currently building collective machine intelligence at Numerai",
     backgroundColor: "#6DD6DA",
   },
-  marley: {
-    name: "Marley Xiong",
-    image: "marley.jpeg",
-    twitter: "_marleyx",
-    github: "io0",
-    description:
-      "Marley smarley barley tarley darley. Marley earned a silver medal for Canada at the International Biology Olympiad, hitchhiked across Norway, built a brain-controlled wheelchair, worked on a neuroscience project at Google X, built a treehouse in the Amazon jungle, and unravelled the secrets to the human brain. Just kidding - the last two are not true (yet).",
-  },
   matthew: {
     name: "Matthew Siu",
     image: "matthew.jpeg",
@@ -158,14 +166,6 @@ export const data = {
     website: "noahtren.com/",
     description:
       "Noah is studying computer science at the University of Cincinnati and has worked played a bit with neural networks. His main interests are deep learning, HCI, and a bit of design.",
-  },
-  raffi: {
-    name: "Raffi Hotter",
-    image: "raffi.jpeg",
-    twitter: "raffi_hotter",
-    github: "rhotter",
-    description:
-      "Raffi is on a quest to hack the brain. He's a senior at McGill studying Math, Computer Science and Physics, and he is building a  $1000 portable brain scanner. Previously, he interned at Google X on a neuroscience project and represented Canada at ISEF, winning 2nd place in Physics. He's obsessed with hot chocolate.",
   },
   // santi: {
   //   name: "Santi Aranguri",
