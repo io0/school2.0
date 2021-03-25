@@ -127,11 +127,11 @@ export const data = {
   jonathan: {
     name: "Jonathan Xu",
     image: "jonathan.jpeg",
-    twitter: "_JonathanXu",
+    twitter: "jonxuxu",
     website: "jonathanxu.com",
     github: "JonathanXu1",
     description:
-      "Jonathan is currently a second year Software Engineering student at the University of Waterloo. He loves building cool projects to solve all kinds of problems. Often, you'll see him coding at various hackathons, playing the piano, and getting drones stuck in trees. He is currently interested in ML and IOT, and working at some Chinese company.",
+      "Jonathan is a software engineering student from Waterloo(?) who has been to over 40 hackathons, building cross-discipline projects that are a mix of crazy, useful, or funny. He is currently in Taiwan, exploring ways to digitize human experiences through AR in video. Recently, Jonathan's been learning Chinese, writing, and breaking his fingertips on the guitar.",
     backgroundColor: "#00f",
   },
   kesava: {
