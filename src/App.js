@@ -90,7 +90,7 @@ const App = () => {
         `background-image: url(${getImagePath("keyboard_amanda")})`
       );
     } else if (activePerson === "marley") {
-      setOverlayStyles(`background-image: url(${getImagePath("laoganma")})`);
+      setOverlayStyles(`background-image: url(${getImagePath("geometric")})`);
     } else if (activePerson === "ethan") {
       setOverlayStyles(
         `background-image: url(${getImagePath("keyboard_ethan")})`
@@ -328,15 +328,26 @@ const App = () => {
             text-align: center;
             font-size: 32px;
             padding: 20px 0;
+            padding-bottom: 10px;
             position: fixed;
             width: 100%;
-            ${overlayStyles && `color: white;`};
+            ${overlayStyles && `color: #eee;`};
             background-color: ${data?.[activePerson]?.backgroundColor ||
             (overlayStyles && "transparent") ||
             "rgb(250,250,250)"};
           `}
         >
           {data[activePerson]?.name || `School 2.0 Bio Page`}
+          <div
+            css={css`
+              font-size: 14px;
+              font-family: verdana;
+              padding-top: 5px;
+              color: grey;
+            `}
+          >
+            Hover the pictures to learn more!
+          </div>
         </h1>
         <div
           css={css`
@@ -401,6 +412,7 @@ const App = () => {
                         <a
                           href={`https://curius.app/${info.curius}`}
                           target="_blank"
+                          title="currently reading"
                         >
                           <CuriusSvg
                             css={css`
