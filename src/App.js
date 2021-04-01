@@ -8,6 +8,30 @@ import PersonHover from "./PersonHover";
 import Stick from "./Stick";
 import Cube from "./Cube";
 import TaylorComponent from "./styles/TaylorComponent";
+const CuriusSvg = () => (
+  <svg
+    width="16"
+    height="16"
+    viewBox="0 0 126 123"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <rect
+      x="25.2"
+      y="22.05"
+      width="100.8"
+      height="100.8"
+      rx="20"
+      fill="#FEE533"
+    />
+    <path
+      fill-rule="evenodd"
+      clip-rule="evenodd"
+      d="M80.8 8H20C13.3726 8 8 13.3726 8 20V80.8C8 87.4274 13.3726 92.8 20 92.8H80.8C87.4274 92.8 92.8 87.4274 92.8 80.8V20C92.8 13.3726 87.4274 8 80.8 8ZM20 0C8.95431 0 0 8.9543 0 20V80.8C0 91.8457 8.9543 100.8 20 100.8H80.8C91.8457 100.8 100.8 91.8457 100.8 80.8V20C100.8 8.95431 91.8457 0 80.8 0H20Z"
+      fill="black"
+    />
+  </svg>
+);
 
 const App = () => {
   const [activePerson, setActivePerson] = useState("");
@@ -372,6 +396,24 @@ const App = () => {
                         </a>
                       </li>
                     )}
+                    {info.curius && (
+                      <li>
+                        <a
+                          href={`https://curius.app/${info.curius}`}
+                          target="_blank"
+                        >
+                          <CuriusSvg
+                            css={css`
+                              && {
+                                rect {
+                                  fill: #ccc;
+                                }
+                              }
+                            `}
+                          />
+                        </a>
+                      </li>
+                    )}
                   </ul>
                   <p>
                     <span style={{ color: "black" }}>
@@ -395,7 +437,7 @@ const App = () => {
               9.2X developer
             </div>
           </PersonHover> */}
-          <iframe
+          {/* <iframe
             src="https://blog.noahtren.com/note/0738d304/"
             css={css`
               width: 90%;
@@ -404,7 +446,7 @@ const App = () => {
               // margin: 0 auto;
               // display: table;
             `}
-          ></iframe>
+          ></iframe> */}
         </div>
       </div>
     </div>
