@@ -22,6 +22,7 @@ export const data = {
     image: "raffi.jpeg",
     twitter: "raffi_hotter",
     github: "rhotter",
+    curius: "raffi-hotter",
     description:
       "Raffi is on a quest to hack the brain. He's a senior at McGill studying Math, Computer Science and Physics, and he is building a  $1000 portable brain scanner. Previously, he interned at Google X on a neuroscience project and represented Canada at ISEF, winning 2nd place in Physics. He's obsessed with hot chocolate.",
   },
@@ -30,6 +31,7 @@ export const data = {
     image: "marley.jpeg",
     website: "marleyx.com",
     twitter: "_marleyx",
+    curius: "marley-xiong",
     github: "io0",
     description:
       "Marley smarley barley tarley darley. Marley earned a silver medal for Canada at the International Biology Olympiad, hitchhiked across Norway, built a brain-controlled wheelchair, worked on a neuroscience project at Google X, built a treehouse in the Amazon jungle, and unravelled the secrets to the human brain. Just kidding - the last two are not true (yet).",
@@ -40,6 +42,7 @@ export const data = {
     website: "",
     github: "caxon",
     twitter: "caxon_",
+    curius: "chris-axon",
     description:
       "Chris runs very fast and is interested in too many things. He likes learning and building and managing large amounts of money. He is currently engineering at Copysmith AI and wants to live somewhere other than Boston.",
   },
@@ -58,6 +61,7 @@ export const data = {
     website: "bonniesjli.github.io/",
     github: "bonniesjli",
     twitter: "bonniesjli",
+    curius: "bonnie-li",
     description:
       "Bonnie is a teen AI research prodigy. She is working towards a more generalized notion of artificial intelligence. She is an undergrad at McGill University studying Mathematics and Computer Science, working on reinforcement learning with Joelle Pineau. She is interested in reinforcement learning, meta learning, and latent space modeling. In the past she worked on reinforcement learning at Mila in Yoshua Bengio's group, then imitation learning at Vector Institute in Jimmy Ba's group.",
   },
@@ -75,6 +79,7 @@ export const data = {
     twitter: "dhruvik_parikh7",
     website: "dhruvikparikh.com",
     github: "dhruvik7",
+    curius: "dhruvik sanjay-parikh",
     description:
       "Dhruvik is a junior studying computer science at Stanford and a software engineer at Kalshi. On campus, Dhruvik is involved with research and sustainability initiatives, including organizing the Stanford Cleantech Challenge. Previously, he has worked on front-end at Microsoft, embedded systems at Voya Sol, and conducted energy research that placed him on the 2019 Forbes 30 Under 30 list. In his spare time, Dhruvik enjoys cooking and solving Rubik's cubes.",
   },
@@ -83,6 +88,7 @@ export const data = {
     image: "dmitri.jpeg",
     twitter: "dkb868",
     github: "dkb868",
+    curius: "dmitri-brereton",
     description:
       "Dmitri is possibly the most ambitious engineer from his home island of Trinidad. He studied at UCLA, where he built dating apps that are better than Tinder, and he more recently built a poker website and started work at Gem. He wants to find and search through all the blogs of the Internet.",
   },
@@ -105,6 +111,7 @@ export const data = {
     name: "Felipe Calero Forero",
     image: "felipe.jpeg",
     twitter: "CaleroForero",
+    curius: "felipe-calero forero",
     description:
       "Felipe started Effective Altruism at Stanford and brought it to New Mexico. Felipe is a 3rd year CS student at Stanford, where he helped build and run Stanford Effective Altruism and Stanford Existential Risks Initiative. He has previously worked on AI governance and biosecurity projects at the Open Philanthropy Project, and synthetic biology research at the Qi lab.",
   },
@@ -121,6 +128,7 @@ export const data = {
     name: "Harshu Musunuri",
     image: "harshu.jpeg",
     twitter: "HarshuMusunuri",
+    curius: "harshu-musunuri",
     description:
       "Harshu works on projects to save lives. She has done research with NASA’s JPL, built a seizure detection app for epileptic patients and is now working on a project with the potential to save thousands of lives. She’s also a hacker at heart: when she lacked the formal lab tools to braze at high temperature, she used the exhaust vent of a ceramic kiln.",
   },
@@ -130,6 +138,7 @@ export const data = {
     twitter: "_JonathanXu",
     website: "jonathanxu.com",
     github: "JonathanXu1",
+    curius: "jonathan-xu",
     description:
       "Jonathan is currently a second year Software Engineering student at the University of Waterloo. He loves building cool projects to solve all kinds of problems. Often, you'll see him coding at various hackathons, playing the piano, and getting drones stuck in trees. He is currently interested in ML and IOT, and working at some Chinese company.",
     backgroundColor: "#00f",
@@ -147,6 +156,7 @@ export const data = {
     twitter: "LiamHinzman",
     website: "liamhinzman.com",
     github: "LiamHz",
+    curius: "liam-hinzman",
     description:
       "Liam is an eighteen-year-old who does machine learning, full-stack, and computer graphics. He recently dropped out of school and worked at Reduct Video, and is currently building collective machine intelligence at Numerai.",
     backgroundColor: "#6DD6DA",
@@ -156,6 +166,7 @@ export const data = {
     image: "matthew.jpeg",
     twitter: "MatthewWSiu",
     github: "Siunami",
+    curius: "matthew-siu",
     description:
       "Matthew makes creative tools for collaboration and draws maps all day. He is trying to design serendipity and enjoys imagining the future of spaces we inhabit and the tools we use.",
   },
@@ -165,6 +176,7 @@ export const data = {
     twitter: "noahtren",
     github: "noahtren",
     website: "noahtren.com/",
+    curius: "noah-trenaman",
     description:
       "Noah is studying computer science at the University of Cincinnati and has worked played a bit with neural networks. His main interests are deep learning, HCI, and a bit of design.",
   },
@@ -181,6 +193,7 @@ export const data = {
     twitter: "dcxStep",
     github: "dcxst",
     website: "dcxst.github.io/",
+    curius: "stephen-fay",
     description:
       "Steve is currently pursuing an undergraduate degree in Mathematics and Physics at McGill University. He enjoys reading, biking, walking, talking, sleeping, problem-solving, coding. He grew up in Brussels (Belgium) and was a member of the souts et guides pluralistes throughout childhood (and briefly a scout-leader) before moving to Canada. His favourite color is blue and his favourite quote is 'that that is is, for what is that but that and is but is.",
   },
@@ -204,6 +217,7 @@ export const data = {
     name: "Vincent Huang",
     image: "vincent.jpg",
     twitter: "vvhuang_",
+    curius: "vincent-huang",
     description:
       "Vincent is a sophomore at MIT interested in exploring math, cs, biology, and snacks. In the past, Vincent worked on models for refugee crises, participated in math olympiads, and wrote software at Amazon. When tired, he likes watching movies, opening messenger rooms, and journaling.",
     github: "vincenthuang75025",
@@ -224,6 +238,6 @@ export const data = {
     image: "nala.jpg",
     github: "willbryk720",
     description:
-      "Nala doesn't bark, but if she did she would probably say \"woof, woof, woof woof\"",
+      'Nala doesn\'t bark, but if she did she would probably say "woof, woof, woof woof"',
   },
 };
