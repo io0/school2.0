@@ -317,6 +317,8 @@ const App = () => {
         "rgb(250,250,250)"};
       `}
     >
+      <meta name="og:image" content={getImagePath("library")} />
+      <meta property="twitter:image" content={getImagePath("library")} />
       <div
         id="overlay"
         css={css`
