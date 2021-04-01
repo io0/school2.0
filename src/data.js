@@ -16,7 +16,7 @@ export const data = {
     curius: "marley-xiong",
     github: "io0",
     description:
-      "Marley smarley barley tarley darley. Marley earned a silver medal for Canada at the International Biology Olympiad, hitchhiked across Norway, built a brain-controlled wheelchair, worked on a neuroscience project at Google X, built a treehouse in the Amazon jungle, and unravelled the secrets to the human brain. Just kidding - the last two are not true (yet).",
+      "Marley smarley barley tarley darley. Marley built a brain-controlled wheelchair, worked on a neuroscience project at Google X, represented Canada at the International Biology Olympiad, built a treehouse in the Amazon jungle, and unravelled the secrets to the human brain. Just kidding - the last two are not true (yet).",
   },
   chris: {
     name: "Chris Axon",
@@ -33,7 +33,7 @@ export const data = {
     name: "Amanda Ngo",
     image: "amanda.png",
     website: "www.amandango.me/",
-    twitter: "",
+    twitter: "manda_ngo",
     github: "",
     description:
       "Amanda is a Kiwi living in the United States. She works at Ought, a startup building tools to automate complex reasoning",
@@ -115,7 +115,7 @@ export const data = {
     twitter: "CaleroForero",
     curius: "felipe-calero forero",
     description:
-      "Felipe started Effective Altruism at Stanford and brought it to New Mexico. Felipe is a 3rd year CS student at Stanford, where he helped build and run Stanford Effective Altruism and Stanford Existential Risks Initiative. He has previously worked on AI governance and biosecurity projects at the Open Philanthropy Project, and synthetic biology research at the Qi lab.",
+      "Felipe led Effective Altruism at Stanford and brought it to New Mexico. Felipe is a 3rd year CS student at Stanford, where he helped build and run Stanford Effective Altruism and Stanford Existential Risks Initiative. He has previously worked on AI governance and biosecurity projects at the Open Philanthropy Project, and synthetic biology research at the Qi lab.",
   },
   geffen: {
     name: "Geffen Avraham",
