@@ -44,6 +44,7 @@ export const data = {
     website: "athenaleong.tech/",
     twitter: "athleong",
     github: "athenaleong",
+    curius: "athena-leong",
     description:
       "Athena is a CS student at UC Berkeley who loves tinkering with crazy ideas",
   },
@@ -203,6 +204,7 @@ export const data = {
     image: "taylor.png",
     twitter: "tayroga",
     website: "tay.ro/",
+    curius: "taylor-rogalski",
     description:
       "Taylor Rogalski is a product designer and aspiring engineer exploring ideas in intelligence augmentation. He's worked with Roam Research, Slashtalk,Primer, Slapdash, and Pioneer. Previously, he led design at ClassDojo, built personalized learning software for Summit Public Schools, and helped people stalk their friends with Facebook Graph Search. He thinks the attention economy is harvesting human potential and filling our brains with sludge, and instead wishes his phone would manipulate him into achieving his goals. Twitter.",
   },
