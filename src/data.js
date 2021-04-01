@@ -1,22 +1,4 @@
 export const data = {
-  // amanda: {
-  //   name: "Amanda Ngo",
-  //   image: "amanda.png",
-  //   website: "www.amandango.me/",
-  //   twitter: "",
-  //   github: "",
-  //   description:
-  //     "Amanda is a Kiwi living in the United States. She works at Ought, a startup building tools to automate complex reasoning",
-  // },
-  // athena: {
-  //   name: "Athena Leong",
-  //   image: "athena.jpeg",
-  //   website: "athenaleong.tech/",
-  //   twitter: "athleong",
-  //   github: "athenaleong",
-  //   description:
-  //     "Athena is a CS student at UC Berkeley who loves tinkering with crazy ideas",
-  // },
   raffi: {
     name: "Raffi Hotter",
     image: "raffi.jpeg",
@@ -45,6 +27,25 @@ export const data = {
     curius: "chris-axon",
     description:
       "Chris runs very fast and is interested in too many things. He likes learning and building and managing large amounts of money. He is currently engineering at Copysmith AI and wants to live somewhere other than Boston.",
+  },
+
+  amanda: {
+    name: "Amanda Ngo",
+    image: "amanda.png",
+    website: "www.amandango.me/",
+    twitter: "",
+    github: "",
+    description:
+      "Amanda is a Kiwi living in the United States. She works at Ought, a startup building tools to automate complex reasoning",
+  },
+  athena: {
+    name: "Athena Leong",
+    image: "athena.jpeg",
+    website: "athenaleong.tech/",
+    twitter: "athleong",
+    github: "athenaleong",
+    description:
+      "Athena is a CS student at UC Berkeley who loves tinkering with crazy ideas",
   },
   azlen: {
     name: "Azlen Elza",
@@ -92,13 +93,13 @@ export const data = {
     description:
       "Dmitri is possibly the most ambitious engineer from his home island of Trinidad. He studied at UCLA, where he built dating apps that are better than Tinder, and he more recently built a poker website and started work at Gem. He wants to find and search through all the blogs of the Internet.",
   },
-  // emma: {
-  //   name: "Emma Qian",
-  //   image: "emma.png",
-  //   github: "",
-  //   description:
-  //     "Emma is a freshly minted DeepMind alumnus with a newfound interest in startups",
-  // },
+  emma: {
+    name: "Emma Qian",
+    image: "emma.png",
+    github: "",
+    description:
+      "Emma is a freshly minted DeepMind alumnus with a newfound interest in startups",
+  },
   ethan: {
     name: "Ethan Perez",
     image: "ethan.jpeg",
@@ -180,13 +181,13 @@ export const data = {
     description:
       "Noah is studying computer science at the University of Cincinnati and has worked played a bit with neural networks. His main interests are deep learning, HCI, and a bit of design.",
   },
-  // santi: {
-  //   name: "Santi Aranguri",
-  //   image: "santi.jpeg",
-  //   github: "Aranguri",
-  //   description:
-  //     "Santi can often be found running to a whiteboard so that he can draw mathematical objects. He will design AGI eventually",
-  // },
+  santi: {
+    name: "Santi Aranguri",
+    image: "santi.jpeg",
+    github: "Aranguri",
+    description:
+      "Santi can often be found running to a whiteboard so that he can draw mathematical objects. He will design AGI eventually",
+  },
   steve: {
     name: "Stephen Fay",
     image: "steve.jpeg",
