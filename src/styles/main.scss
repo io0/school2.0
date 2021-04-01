@@ -4,7 +4,7 @@
   grid-column-gap: 20px;
   width: 90%;
   margin-left: 5%;
-  padding-top: 66px;
+  padding-top: 80px;
 }
 
 @import url("https://fonts.googleapis.com/css2?family=Croissant+One&display=swap");
@@ -35,10 +35,6 @@
     display: block;
     margin: 0 auto;
     border-radius: 5px;
-    &:hover {
-      // background-color: #dddddd;
-      cursor: pointer;
-    }
   }
 
   p,
