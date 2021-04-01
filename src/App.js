@@ -346,7 +346,7 @@ const App = () => {
               color: grey;
             `}
           >
-            Hover the pictures to learn more!
+            Hover over the pictures to learn more!
           </div>
         </h1>
         <div
