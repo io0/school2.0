@@ -317,15 +317,15 @@ const App = () => {
         "rgb(250,250,250)"};
       `}
     >
-      <meta name="og:image" content={getImagePath("library")} />
-      <meta property="twitter:image" content={getImagePath("library")} />
+      {/* <meta name="og:image" content={getImagePath("library")} />
+      <meta property="twitter:image" content={getImagePath("library")} /> */}
       <div
         id="overlay"
         css={css`
           ${overlayStyles}
         `}
       >
-        <h1
+        <div
           css={css`
             text-align: center;
             font-size: 32px;
@@ -350,7 +350,22 @@ const App = () => {
           >
             Hover over the pictures to learn more!
           </div>
-        </h1>
+
+          <div
+            css={css`
+              position: absolute;
+              right: 10px;
+              top: 20px;
+              font-size: 12px;
+              color: grey;
+              text-decoration: none;
+            `}
+          >
+            <a href="https://school2point0.com" target="_blank">
+              What is School 2.0?
+            </a>
+          </div>
+        </div>
         <div
           css={css`
             max-width: 1000px;
