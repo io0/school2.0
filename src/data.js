@@ -99,7 +99,7 @@ export const data = {
     image: "emma.png",
     github: "",
     description:
-      "Emma is a freshly minted DeepMind alumnus with a newfound interest in startups. She is studying CS at Caltech and played hockey at Cambridge. She worked at Facebook, Facebook AI Research, Jump Trading, and DeepMind. She has a 'sophisticated' taste in modern music and would love to connect in LinkedIn.",
+      "Emma is a freshly minted DeepMind alumnus with a newfound interest in startups. She is studying CS at Caltech and played hockey at Cambridge. She worked at Facebook, Facebook AI Research, Jump Trading, and DeepMind. She has a quite 'sophisticated' taste in modern music and would love to connect in LinkedIn.",
   },
   ethan: {
     name: "Ethan Perez",
@@ -124,7 +124,7 @@ export const data = {
     github: "",
     website: "",
     description:
-      "Geffen sent satellites into space and cooks great chicken. Geffen designed a CubeSat mission to one of Saturn’s moons, leading him to become the only high-schooler invited to an academic space conference in China. At 16, he left school to pursue his passion for building satellites at a local laboratory. He’s also currently working on a program to tell where (on Earth) a satellite picture was taken.",
+      "Geffen sent satellites into space and cooks great chicken. Geffen designed a CubeSat mission to one of Saturn’s moons, leading him to become the only high-schooler invited to the International Astronautical Congress (IAC) hosted in China. At 16, he left school to pursue his passion for building satellites at a local laboratory. He’s also currently working on a program to tell where (on Earth) a satellite picture was taken.",
   },
   harshu: {
     name: "Harshu Musunuri",
@@ -132,7 +132,7 @@ export const data = {
     twitter: "HarshuMusunuri",
     curius: "harshu-musunuri",
     description:
-      "Harshu works on projects to save lives. She has done research with NASA’s JPL, built a seizure detection app for epileptic patients and is now working on a project with the potential to save thousands of lives. She’s also a hacker at heart: when she lacked the formal lab tools to braze at high temperature, she used the exhaust vent of a ceramic kiln.",
+      "Harshu is a Stanford Chemist who works on projects to save lives. She has done research with NASA’s JPL, built a seizure detection app for epileptic patients and is now working on a project with the potential to save thousands of lives. She’s also a hacker at heart: when she lacked the formal lab tools to braze at high temperature, she used the exhaust vent of a ceramic kiln.",
   },
   jonathan: {
     name: "Jonathan Xu",
@@ -184,7 +184,7 @@ export const data = {
   },
   santi: {
     name: "Santi Aranguri",
-    image: "santi.jpeg",
+    image: "santi.jpg",
     github: "Aranguri",
     description:
       "Santi can often be found running to a whiteboard so that he can draw mathematical objects. He is studying Math at Stanford and is an Argentinian IT genius as a teen. He also plays guitar and beats you at soccer. He will design AGI eventually.",
