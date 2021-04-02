@@ -36,7 +36,7 @@ export const data = {
     twitter: "",
     github: "",
     description:
-      "Amanda is a Kiwi living in the United States. She works at Ought, a startup building tools to automate complex reasoning",
+      "Amanda is building tools to automate complex reasoning. She studied Econ at Wharton, and is a Kiwi living in the United States. she loves co-opting friends into social experiments, understanding how brains work, and figuring out what it means to live a good life.",
   },
   athena: {
     name: "Athena Leong",
@@ -46,7 +46,7 @@ export const data = {
     github: "athenaleong",
     curius: "athena-leong",
     description:
-      "Athena is a CS student at UC Berkeley who loves tinkering with crazy ideas",
+      "Athena is a CS student at UC Berkeley who loves tinkering with crazy ideas. She grew up in Singapore where she developed a passion for air humidifiers and monopolizing pineapples. She is a social butterfly and brings too much chaos and laughter.",
   },
   azlen: {
     name: "Azlen Elza",
@@ -65,7 +65,7 @@ export const data = {
     twitter: "bonniesjli",
     curius: "bonnie-li",
     description:
-      "Bonnie is a teen AI research prodigy. She is working towards a more generalized notion of artificial intelligence. She is an undergrad at McGill University studying Mathematics and Computer Science, working on reinforcement learning with Joelle Pineau. She is interested in reinforcement learning, meta learning, and latent space modeling. In the past she worked on reinforcement learning at Mila in Yoshua Bengio's group, then imitation learning at Vector Institute in Jimmy Ba's group.",
+      "Bonnie is a teen AI research whiz. She is working towards a more generalized notion of artificial intelligence. She is studying Math and CS at McGill and working on reinforcement learning with Joelle Pineau. She is interested in reinforcement learning, meta learning, and latent space modeling. In the past she worked on reinforcement learning at Mila in Yoshua Bengio's group, then imitation learning at Vector Institute in Jimmy Ba's group.",
   },
   david: {
     name: "David Holz",
@@ -99,7 +99,7 @@ export const data = {
     image: "emma.png",
     github: "",
     description:
-      "Emma is a freshly minted DeepMind alumnus with a newfound interest in startups",
+      "Emma is a freshly minted DeepMind alumnus with a newfound interest in startups. She is studying CS at Caltech and played hockey at Cambridge. She worked at Facebook, Facebook AI Research, Jump Trading, and DeepMind. She has a 'sophisticated' taste in modern music and would love to connect in LinkedIn.",
   },
   ethan: {
     name: "Ethan Perez",
@@ -187,7 +187,7 @@ export const data = {
     image: "santi.jpeg",
     github: "Aranguri",
     description:
-      "Santi can often be found running to a whiteboard so that he can draw mathematical objects. He will design AGI eventually",
+      "Santi can often be found running to a whiteboard so that he can draw mathematical objects. He is studying Math at Stanford and is an Argentinian IT genius as a teen. He also plays guitar and beats you at soccer. He will design AGI eventually.",
   },
   steve: {
     name: "Stephen Fay",
