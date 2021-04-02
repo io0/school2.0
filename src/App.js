@@ -90,7 +90,7 @@ const App = () => {
         `background-image: url(${getImagePath("keyboard_amanda")})`
       );
     } else if (activePerson === "marley") {
-      setOverlayStyles(`background-image: url(${getImagePath("laoganma")})`);
+      setOverlayStyles(`background-image: url(${getImagePath("geometric")})`);
     } else if (activePerson === "ethan") {
       setOverlayStyles(
         `background-image: url(${getImagePath("keyboard_ethan")})`
@@ -317,27 +317,55 @@ const App = () => {
         "rgb(250,250,250)"};
       `}
     >
+      {/* <meta name="og:image" content={getImagePath("library")} />
+      <meta property="twitter:image" content={getImagePath("library")} /> */}
       <div
         id="overlay"
         css={css`
           ${overlayStyles}
         `}
       >
-        <h1
+        <div
           css={css`
             text-align: center;
             font-size: 32px;
             padding: 20px 0;
+            padding-bottom: 10px;
             position: fixed;
             width: 100%;
-            ${overlayStyles && `color: white;`};
+            ${overlayStyles && `color: #eee;`};
             background-color: ${data?.[activePerson]?.backgroundColor ||
             (overlayStyles && "transparent") ||
             "rgb(250,250,250)"};
           `}
         >
           {data[activePerson]?.name || `School 2.0 Bio Page`}
-        </h1>
+          <div
+            css={css`
+              font-size: 14px;
+              font-family: verdana;
+              padding-top: 5px;
+              color: grey;
+            `}
+          >
+            Hover over the pictures to learn more!
+          </div>
+
+          <div
+            css={css`
+              position: absolute;
+              right: 10px;
+              top: 20px;
+              font-size: 12px;
+              color: grey;
+              text-decoration: none;
+            `}
+          >
+            <a href="https://school2point0.com" target="_blank">
+              What is School 2.0?
+            </a>
+          </div>
+        </div>
         <div
           css={css`
             max-width: 1000px;
@@ -401,6 +429,7 @@ const App = () => {
                         <a
                           href={`https://curius.app/${info.curius}`}
                           target="_blank"
+                          title="currently reading"
                         >
                           <CuriusSvg
                             css={css`
