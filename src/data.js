@@ -65,7 +65,7 @@ export const data = {
     twitter: "bonniesjli",
     curius: "bonnie-li",
     description:
-      "Bonnie is a teen AI research whiz. She is working towards a more generalized notion of artificial intelligence. She is studying Math and CS at McGill and working on reinforcement learning with Joelle Pineau. She is interested in reinforcement learning, meta learning, and latent space modeling. In the past she worked on reinforcement learning at Mila in Yoshua Bengio's group, then imitation learning at Vector Institute in Jimmy Ba's group.",
+      "Bonnie is a teen AI research prodigy. She is working towards a more generalized notion of artificial intelligence. She is studying Math and CS at McGill and working on reinforcement learning with Joelle Pineau. She is interested in reinforcement learning, meta learning, and latent space modeling. In the past she worked on reinforcement learning at Mila in Yoshua Bengio's group, then imitation learning at Vector Institute in Jimmy Ba's group.",
   },
   david: {
     name: "David Holz",
