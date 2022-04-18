@@ -99,7 +99,7 @@ export const data = {
     image: "emma.png",
     github: "",
     description:
-      "Emma is a freshly minted DeepMind alumnus with a newfound interest in startups. She is studying CS at Caltech and played hockey at Cambridge. She worked at Facebook, Facebook AI Research, Jump Trading, and DeepMind. She has a quite 'sophisticated' taste in modern music and would love to connect in LinkedIn.",
+      "Emma is a freshly minted DeepMind alumnus with a newfound interest in startups. She is studying CS at Caltech and played hockey at Cambridge. She worked at Facebook, Facebook AI Research, Jump Trading, and DeepMind. She has a quite 'sophisticated' taste in modern music.",
   },
   ethan: {
     name: "Ethan Perez",

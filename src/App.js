@@ -276,7 +276,6 @@ const App = () => {
       case "emma":
         return (
           <div id="emma-text" className="noHover">
-            Who let the dogs out??<div class="dog"></div>
           </div>
         );
       case "dhruvik":
